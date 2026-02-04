@@ -40,6 +40,15 @@ Blog posts link to YAML data via `episode` number in frontmatter. The series pag
 - **YouTube thumbnails**: Use `https://img.youtube.com/vi/{VIDEO_ID}/mqdefault.jpg`
 - **Site name**: "Why Quran" (not "why-quran.org")
 - **No Tasneem Institute branding**: Removed from footer and pages
+- **Hosting**: GitHub Pages (static only, no server-side redirects)
+
+## Legacy URL Redirects
+
+The old WordPress site used `?p=` URLs (e.g., `why-quran.org/?p=746`). YouTube video descriptions still link to these.
+
+Client-side redirects are implemented in `src/layouts/BaseLayout.astro` via JavaScript. The redirect map was built from a WordPress URL export.
+
+The legacy site is still accessible at `https://whyquran.azurewebsites.net` for reference.
 
 ## Missing Content
 
