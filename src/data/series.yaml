@@ -536,6 +536,54 @@ series:
         title: "[103] Death of the Prophet"
         url: https://www.youtube.com/watch?v=6_yA6nDAiCE
         description: This lecture covers various events that occurred on the day of the prophet's passing and the day after, up until his burial.
+  - id: surahs-fateha-al-taghabun
+    title: Surahs Fateha & Al-Taghabun
+    description: "Tafsir of Surahs Fateha & Al-Taghabun (Surah #1)"
+    playlist_id: PLpkB0iwLgfTbqe-EgEHRQ6Bl69bN70mm3
+    playlist_url: https://www.youtube.com/playlist?list=PLpkB0iwLgfTbqe-EgEHRQ6Bl69bN70mm3
+    thumbnail_video_id: OFinBz10RHM
+    episodes:
+      - video_id: OFinBz10RHM
+        title: 1.  Tafseer of Surah Fatiha - Dr. Husein Khimjee
+        url: https://www.youtube.com/watch?v=OFinBz10RHM
+        description: Dr. Khimjee begins with a short discussion on the importance of the month of Ramadhan. He then continues onto the tafseer of Surah Fateha.
+      - video_id: WXKXT8b_dUY
+        title: 2. Tafseer of Surah Al-Fatiha; Introduction to Surah Al-Taghaabun - Dr. Khimjee
+        url: https://www.youtube.com/watch?v=WXKXT8b_dUY
+        description: "Dr. Khimjee completes the tafseer or Surah Al-Fatiha. He then moves onto the main topic for these classes: Tafseer of Surah Al-Taghaabun (mutual gain and loss)."
+      - video_id: r1tjWZMcDHo
+        title: 3. Tafseer of Surah Al-Taghaabun - Dr. Husein Khimjee
+        url: https://www.youtube.com/watch?v=r1tjWZMcDHo
+        description: Dr. Khimjee continues the tafseer of Surah Al-Taghaabun.
+      - video_id: G_0SEkCOphc
+        title: 4. Tafseer of Surah Al-Taghaabun - Dr. Khimjee
+        url: https://www.youtube.com/watch?v=G_0SEkCOphc
+        description: Dr. Khimjee continues the tafseer of Surah Al-Taghaabun.
+      - video_id: O6Q5uQ5IXV8
+        title: 5. Tafseer of Surah Al-Taghaabun - Dr. Husein Khimjee
+        url: https://www.youtube.com/watch?v=O6Q5uQ5IXV8
+        description: Part five of the tafseer of Surah Al-Taghaabun.
+      - video_id: VkRBUfj4ptY
+        title: 6. Tafseer of Surah Al-Taghaabun - Dr. Husein Khimjee
+        url: https://www.youtube.com/watch?v=VkRBUfj4ptY
+        description: Dr. Khimjee continues the tafseer of Surah Al-Taghaabun.
+      - video_id: yuj4vdaO9Ac
+        title: 7. Tafseer of Surah Al-Taghaabun - Dr. Husein Khimjee
+        url: https://www.youtube.com/watch?v=yuj4vdaO9Ac
+        description: Dr. Khimjee continues the tafseer of Surah Al-Taghaabun.
+      - video_id: 1_O5oeVumYU
+        title: 8. Tafseer of Surah Al-Taghaabun; Role of Husband & Wife in Marriage - Dr. Husein Khimjee
+        url: https://www.youtube.com/watch?v=1_O5oeVumYU
+        description: Dr. Khimjee continues the tafseer of Surah Al-Taghaabun which also involves a discussion of marriage as well as the roles of a husband and wife in marriage.
+      - video_id: MucnJAznWOk
+        title: 9. Tafseer of Surah Al-Taghaabun - Dr. Husein Khimjee
+        url: https://www.youtube.com/watch?v=MucnJAznWOk
+        description: Dr. Khimjee continues the tafseer of Surah Al-Taghaabun.
+      - video_id: vX1HVql8SSM
+        title: 10. Tafseer of Surah Al-Taghaabun - Dr. Husein Khimjee
+        url: https://www.youtube.com/watch?v=vX1HVql8SSM
+        description: Dr. Khimjee continues the tafseer of Surah Al-Taghaabun.
+    surah_number: 1
   - id: surah-baqarah
     title: Surah Baqarah
     surah_number: 2
@@ -941,6 +989,36 @@ series:
         url: https://www.youtube.com/watch?v=ULxgBp1Goxs
         description: Sheikh Azhar covers verses 150-165 of Surah An'aam
     speaker: Sheikh Azhar Nasser
+  - id: surah-al-araf
+    title: Surah Al-Araf
+    description: "Tafsir of Surah Al-Araf (Surah #7) - Partial"
+    playlist_id: PLpkB0iwLgfTbkKzoxFnEqDb1Yv5KZ1plq
+    playlist_url: https://www.youtube.com/playlist?list=PLpkB0iwLgfTbkKzoxFnEqDb1Yv5KZ1plq
+    thumbnail_video_id: np7ulNg_zrY
+    episodes:
+      - video_id: np7ulNg_zrY
+        title: 01Lecture_Tafsir Surah Al Al Araf
+        url: https://www.youtube.com/watch?v=np7ulNg_zrY
+      - video_id: p-kPcGjYJF8
+        title: 02Lecture_Tafsir Surah Al Al Araf
+        url: https://www.youtube.com/watch?v=p-kPcGjYJF8
+      - video_id: yqBZ9j8bGI8
+        title: 03Lecture_Tafsir Surah Al Al Araf
+        url: https://www.youtube.com/watch?v=yqBZ9j8bGI8
+      - video_id: 6FMbL8H2Dt8
+        title: 04Lecture_Tafsir Surah Al Al Araf
+        url: https://www.youtube.com/watch?v=6FMbL8H2Dt8
+      - video_id: Z2AKcYCGFbg
+        title: 05Lecture_Tafsir Surah Al Al Araf
+        url: https://www.youtube.com/watch?v=Z2AKcYCGFbg
+      - video_id: KjT7YKANI_w
+        title: 06Lecture_Tafsir Surah Al Al Araf
+        url: https://www.youtube.com/watch?v=KjT7YKANI_w
+        description: |-
+          Lecture: Shk. Murtadha Alidina
+          Surah Al A'araf - (p6)
+    surah_number: 7
+    speaker: Sheikh Murtaza Alidina
   - id: surah-tawbah
     title: Surah Tawbah
     surah_number: 9
@@ -1202,6 +1280,39 @@ series:
         title: 14 Shawwal 1434 - Tafsir of Surah Yusuf 89-98 - Sheikh Jaffer H. Jaffer
         url: https://www.youtube.com/watch?v=kwn4xnY_nOI
         description: Tafsir of Surah Yusuf verses 89-98
+    speaker: Sheikh Jaffer H. Jaffer
+  - id: surah-ar-raad
+    title: Surah ar-Raad
+    description: "Tafsir of Surah ar-Raad (Surah #13) - Partial"
+    playlist_id: PLpkB0iwLgfTZuuzfj8pqRfGYeZnsxIhn1
+    playlist_url: https://www.youtube.com/playlist?list=PLpkB0iwLgfTZuuzfj8pqRfGYeZnsxIhn1
+    thumbnail_video_id: kXQtNh-iT1k
+    episodes:
+      - video_id: kXQtNh-iT1k
+        title: Tafseer of Surah al-Ra'ad 19-24 [part 1] - 16th Ramadhan 1437 - Sheikh Jaffer H. Jaffer
+        url: https://www.youtube.com/watch?v=kXQtNh-iT1k
+        description: |-
+          -- Date: 16 Ramadhan 1437 / June 22, 2016
+          -- Occasion: Ramadhan Program 1437 / 2016
+      - video_id: ZZm__eULF60
+        title: Tafseer of Surah al-Ra'ad 19-24 [part 2] - 17th Ramadhan 1437 - Sheikh Jaffer H. Jaffer
+        url: https://www.youtube.com/watch?v=ZZm__eULF60
+        description: |-
+          -- Date: 17 Ramadhan 1437 / June 23, 2016
+          -- Occasion: Ramadhan Program 1437 / 2016
+      - video_id: rsEVC4XrxTY
+        title: Tafseer of Surah al-Ra'ad 19-24 [part 3] - 9th Shawwal 1437 - Sheikh Jaffer H. Jaffer
+        url: https://www.youtube.com/watch?v=rsEVC4XrxTY
+        description: |-
+          -- Date: 9th Shawwal 1437 / July 14, 2016
+          -- Occasion: Thursday Night Program / Jannatul Baqi Day
+      - video_id: 1IliAnBIy0U
+        title: Tafseer of Surah al-Ra'ad 19-24 [part 4] - 16th Shawwal 1437 - Sheikh Jaffer H. Jaffer
+        url: https://www.youtube.com/watch?v=1IliAnBIy0U
+        description: |-
+          -- Date: 16th Shawwal 1437 / July 21, 2016
+          -- Occasion: Thursday Night Program
+    surah_number: 13
     speaker: Sheikh Jaffer H. Jaffer
   - id: surah-al-anbiya
     title: Surah Al-Anbiya
@@ -1530,6 +1641,46 @@ series:
           -- Date: 26 Shabaan 1437 / June 2, 2016
           -- Occasion: Thursday Night Program
     speaker: Molana Sayyid Muhammad Rizvi
+  - id: surah-as-saffat
+    title: Surah As-Saffat
+    description: "Tafsir of Surah As-Saffat (Surah #37)"
+    playlist_id: PLpkB0iwLgfTY_lX4vSt-tZsZAmQftNYuM
+    playlist_url: https://www.youtube.com/playlist?list=PLpkB0iwLgfTY_lX4vSt-tZsZAmQftNYuM
+    thumbnail_video_id: dnxKzI8owjg
+    episodes:
+      - video_id: dnxKzI8owjg
+        title: 1. Tafseer of Surah As-Saffat (37) - Shaikh Hasanayn Kassamali
+        url: https://www.youtube.com/watch?v=dnxKzI8owjg
+        description: "MP3: https://s3.amazonaws.com/JCC/Ramadhan/1438/Tafseer/01Ramadhan1438Tafseer_Kassamali_2017-05-26.mp3"
+      - video_id: KGUwk0z9PhY
+        title: 2. Tafseer of Surah As-Saffat (37) - Shaikh Hasanayn Kassamali
+        url: https://www.youtube.com/watch?v=KGUwk0z9PhY
+        description: "MP3: https://s3.amazonaws.com/JCC/Ramadhan/1438/Tafseer/2Ramadhan1438Tafseer_Kassamali_2017-05-27_20-12-49.mp3"
+      - video_id: 8FkF7P_ZxzM
+        title: 3. Tafseer of Surah As-Saffat (37) - Shaikh Hasanayn Kassamali
+        url: https://www.youtube.com/watch?v=8FkF7P_ZxzM
+        description: "MP3: https://s3.amazonaws.com/JCC/Ramadhan/1438/Tafseer/3Ramadhan1438Tafseer_Kassamali_2017-05-28_20-14-24.mp3"
+      - video_id: p25XtPObJkY
+        title: 4. Tafseer of Surah As-Saffat (37) - Shaikh Hasanayn Kassamali
+        url: https://www.youtube.com/watch?v=p25XtPObJkY
+        description: "MP3: https://s3.amazonaws.com/JCC/Ramadhan/1438/Tafseer/4Ramadhan1438Tafseer_Kassamali_2017-05-29_20-13-08.mp3"
+      - video_id: FQqFiy-gSJo
+        title: 5. Tafseer of Surah As-Saffat (37) - Shaikh Hasanayn Kassamali
+        url: https://www.youtube.com/watch?v=FQqFiy-gSJo
+        description: "MP3: https://s3.amazonaws.com/JCC/Ramadhan/1438/Tafseer/5Ramadhan1438Tafseer_Kassamali_2017-05-30_20-14-17.mp3"
+      - video_id: Dz1tTO5-ga4
+        title: 6. Tafseer of Surah As-Saffat (37) - Shaikh Hasanayn Kassamali
+        url: https://www.youtube.com/watch?v=Dz1tTO5-ga4
+        description: "MP3: https://s3.amazonaws.com/JCC/Ramadhan/1438/Tafseer/6Ramadhan1438Tafeer_Kassamali_2017-05-31_20-14-04.mp3"
+      - video_id: 6WRTrvIq6gA
+        title: 7. Tafseer of Surah As-Saffat (37) - Shaikh Hasanayn Kassamali
+        url: https://www.youtube.com/watch?v=6WRTrvIq6gA
+        description: "MP3: https://s3.amazonaws.com/JCC/Ramadhan/1438/Tafseer/08Ramadhan1438Tafseer_Kassamali_2017-06-02.mp3"
+      - video_id: KqwMOcQDbqs
+        title: 8. Tafseer of Surah As-Saffat (37) - Shaikh Hasanayn Kassamali
+        url: https://www.youtube.com/watch?v=KqwMOcQDbqs
+        description: "MP3: https://s3.amazonaws.com/JCC/Ramadhan/1438/Tafseer/09Ramadhan1438Tafseer_Kassamali_2017_06-03.mp3"
+    surah_number: 37
   - id: surah-dukhan
     title: Surah Dukhan
     surah_number: 44
@@ -1652,6 +1803,51 @@ series:
         url: https://www.youtube.com/watch?v=vWGYdOOoof8
         description: In his nightly Ramadan series, Hujjatul Islam Sayyid Muhammad Rizvi delivers the thirteenth in a series of lectures examining Surah Jathiya (chapter 45) of the Holy Qur'an.
     speaker: Sayyid Muhammad Rizvi
+  - id: surah-fath
+    title: Surah Fath
+    description: "Tafsir of Surah Fath (Surah #48)"
+    playlist_id: PLpkB0iwLgfTah73Pmrk4Iq-_4gbPBgV6I
+    playlist_url: https://www.youtube.com/playlist?list=PLpkB0iwLgfTah73Pmrk4Iq-_4gbPBgV6I
+    thumbnail_video_id: r8y7w2WsoZA
+    episodes:
+      - video_id: r8y7w2WsoZA
+        title: Tafseer of Sura Fath - Lecture 1 | Sayyid Muhammad Rizvi | English
+        url: https://www.youtube.com/watch?v=r8y7w2WsoZA
+        description: "In this weekly Wednesday lecture series, Hujjatul Islam Maulana Sayyid Muhammad Rizvi delivers the first in a series of lectures examining Sura Fath (chapter 48) of the Holy Qur'an\r\n\r\nMarch 16, 2011"
+      - video_id: U7AJYm3YL4M
+        title: Tafseer of Sura Fath - Lecture 2 | Sayyid Muhammad Rizvi | English
+        url: https://www.youtube.com/watch?v=U7AJYm3YL4M
+        description: "Continuing with his weekly Wednesday lecture series, Hujjatul Islam Maulana Sayyid Muhammad Rizvi delivers the second in a series of lectures examining Sura Fath (chapter 48) of the Holy Qur'an.\r\n\r\nMarch 23, 2011"
+      - video_id: cGC0JaEIev0
+        title: Tafseer of Sura Fath - Lecture 4 | Sayyid Muhammad Rizvi | English
+        url: https://www.youtube.com/watch?v=cGC0JaEIev0
+        description: "Continuing with his weekly Wednesday lecture series, Hujjatul Islam Maulana Sayyid Muhammad Rizvi delivers the fourth in a series of lectures examining Sura Fath (chapter 48) of the Holy Qur'an. \r\n\r\nApril 6, 2011\r\n\r\nNOTE: Due to technical difficulties, the audio for lecture #3 did not record properly."
+      - video_id: DnlqJYsHcl0
+        title: Tafseer of Sura Fath - Lecture 5 | Sayyid Muhammad Rizvi | English
+        url: https://www.youtube.com/watch?v=DnlqJYsHcl0
+        description: "Continuing with his weekly Wednesday lecture series, Hujjatul Islam Maulana Sayyid Muhammad Rizvi delivers the fifth in a series of lectures examining Sura Fath (chapter 48) of the Holy Qur'an. \r\n\r\nApril 13, 2011"
+      - video_id: 8Mf37e1r6Xg
+        title: Tafseer of Sura Fath - Lecture 6 | Sayyid Muhammad Rizvi | English
+        url: https://www.youtube.com/watch?v=8Mf37e1r6Xg
+        description: "Continuing with his weekly Wednesday lecture series, Hujjatul Islam Maulana Sayyid Muhammad Rizvi delivers the sixth in a series of lectures examining Sura Fath (chapter 48) of the Holy Qur'an. \r\n \r\nApril 20, 2011"
+      - video_id: MDI-_1NiMZc
+        title: Tafseer of Sura Fath - Lecture 7 | Sayyid Muhammad Rizvi | English
+        url: https://www.youtube.com/watch?v=MDI-_1NiMZc
+        description: "Continuing with his weekly Wednesday lecture series, Hujjatul Islam Maulana Sayyid Muhammad Rizvi delivers the seventh in a series of lectures examining Sura Fath (chapter 48) of the Holy Qur'an. \r\n\r\nApril 27, 2011"
+      - video_id: vhsnkP6w-KA
+        title: Tafseer of Sura Fath - Lecture 8 | Sayyid Muhammad Rizvi | English
+        url: https://www.youtube.com/watch?v=vhsnkP6w-KA
+        description: "Continuing with his weekly Wednesday lecture series, Hujjatul Islam Maulana Sayyid Muhammad Rizvi delivers the eighth in a series of lectures examining Sura Fath (chapter 48) of the Holy Qur'an. \r\n\r\nMay 4, 2011"
+      - video_id: xpuuLegkE68
+        title: Tafseer of Sura Fath - Lecture 9 | Sayyid Muhammad Rizvi | English
+        url: https://www.youtube.com/watch?v=xpuuLegkE68
+        description: "Continuing with his weekly Wednesday lecture series, Hujjatul Islam Maulana Sayyid Muhammad Rizvi delivers the ninth in a series of lectures examining Sura Fath (chapter 48) of the Holy Qur'an. \r\n\r\nMay 11, 2011"
+      - video_id: I4d_AKWmH34
+        title: Tafseer of Sura Fath - Lecture 10 | Sayyid Muhammad Rizvi | English
+        url: https://www.youtube.com/watch?v=I4d_AKWmH34
+        description: Continuing with his weekly Wednesday lecture series, Hujjatul Islam Maulana Sayyid Muhammad Rizvi delivers the tenth and last in a series of lectures examining Sura Fath (chapter 48) of the Holy Qur'an.
+    surah_number: 48
+    speaker: Sayyid Muhammad Rizvi
   - id: surah-hujurat
     title: Surah Hujurat
     surah_number: 49
@@ -1709,6 +1905,67 @@ series:
         title: "[6] What makes someone a True Believer?"
         url: https://www.youtube.com/watch?v=n9mhcNAhHU4
         description: Quran Tafsir covering verses 14-18 of Surah Hujurat.  Sheikh Azhar Nasser describes what makes a Muslim become a True Believer, the knowledge of Allah, and whether we're doing God a favor by worshipping him
+  - id: surah-az-zariyat
+    title: Surah az-Zariyat
+    description: "Tafsir of Surah az-Zariyat (Surah #51)"
+    playlist_id: PLpkB0iwLgfTaKs5yAfZtxlWaXBG_-ar2c
+    playlist_url: https://www.youtube.com/playlist?list=PLpkB0iwLgfTaKs5yAfZtxlWaXBG_-ar2c
+    thumbnail_video_id: OVDYOD1uDNw
+    episodes:
+      - video_id: OVDYOD1uDNw
+        title: 1. Tafsir of Sura az-Zariyat - The Scattering Winds - Maulana Syed Muhammad Rizvi
+        url: https://www.youtube.com/watch?v=OVDYOD1uDNw
+        description: |-
+          - Discussing the 3 Characteristics of Aqida - Tawhid, Nubuwwat, Qiyamat
+          - The Reality of Qiyamat (Day of Judgement)
+          - Allah Swears By 3 Things (The Hidden and Apparent Meanings)
+      - video_id: 5NiCHkce1YA
+        title: 2. Tafsir of Sura az-Zariyat - Who Will Enter the Heavens? - Maulana Syed Muhammad Rizvi
+        url: https://www.youtube.com/watch?v=5NiCHkce1YA
+        description: |-
+          - Wajibaat Vs. Sunnat Actions
+          - Allah (SWT) Continues Swearing By Certain Characteristics of This World
+          - Hidden and Apparent Meanings of What He Swears By
+          - Defining The Righteous People Who Will Enter Heaven
+      - video_id: CPWFDmfE1jQ
+        title: 3. Tafsir of Sura az-Zariyat - Signs of Qiyamat - Maulana Syed Muhammad Rizvi
+        url: https://www.youtube.com/watch?v=CPWFDmfE1jQ
+        description: |-
+          - Nature and Creations of God as the Basis for Human Innovation and Invention
+          - Having Faith and Certainty in Allah and Islamic Principles
+          - Signs of Qiyamat Visible to 'Those Who are Sure'
+          - Signs Within Our Souls
+          - Events Leading up to Qiyamat
+    surah_number: 51
+    speaker: Maulana Syed Muhammad Rizvi
+  - id: surah-at-tur
+    title: Surah at-Tur
+    description: "Tafsir of Surah at-Tur (Surah #52) - Partial"
+    playlist_id: PLpkB0iwLgfTYl9xz_P_bxW4vlFY9-j8CX
+    playlist_url: https://www.youtube.com/playlist?list=PLpkB0iwLgfTYl9xz_P_bxW4vlFY9-j8CX
+    thumbnail_video_id: G-I6m4gbsfs
+    episodes:
+      - video_id: G-I6m4gbsfs
+        title: 1. Tafsir of Sura at-Tur - The Coming of Qiyamat - Maulana Syed Muhammad Rizvi
+        url: https://www.youtube.com/watch?v=G-I6m4gbsfs
+        description: |-
+          - Discussing Ayat 1-16
+          - Accepting the Concept of the Hereafter
+          - The Quranic Style of Allah 'Swearing By' Certain Things
+          - Describing the Signs and Actions of the Coming of Qiyamat (Earthquakes, Solar System Changes, etc)
+          - Describing the Day of Qiyamat
+          - Describing the Sinful People Who Will Be Dealt With
+      - video_id: I165LsGNnUg
+        title: 2. Tafsir of Sura at-Tur - Paradise and Its Blessings - Maulana Syed Muhammad Rizvi
+        url: https://www.youtube.com/watch?v=I165LsGNnUg
+        description: |-
+          - Discussing Ayat 17-21
+          - Describing the Blessings of Paradise
+          - Characteristics and Qualities of the Inhabitants of Paradise
+          - Reuniting with Your Family
+          - Manifestation of Our Deeds
+          - 'Fruits' and 'Gardens' of Paradise
+    surah_number: 52
   - id: surah-najm
     title: Surah Najm
     surah_number: 53
@@ -1890,6 +2147,39 @@ series:
           Recited By: Maulana Syed Muhammad Rizvi
           August 3rd, 2012
     speaker: Maulana Syed Muhammad Rizvi
+  - id: surah-waqiah
+    title: Surah Waqiah
+    description: "Tafsir of Surah Waqiah (Surah #56)"
+    playlist_id: PLpkB0iwLgfTZfK5tSvZX8EtdyVqDb57Y6
+    playlist_url: https://www.youtube.com/playlist?list=PLpkB0iwLgfTZfK5tSvZX8EtdyVqDb57Y6
+    thumbnail_video_id: XchKx79F-VU
+    episodes:
+      - video_id: XchKx79F-VU
+        title: Tafsir Surah Waqiah - Episode 1
+        url: https://www.youtube.com/watch?v=XchKx79F-VU
+        description: A lecture series by Sheikh Murtaza Alidina examining the Holy verses of Surah Waqiah.
+      - video_id: otSNZrbH8w4
+        title: Tafsir Surah Waqiah - Episode 2
+        url: https://www.youtube.com/watch?v=otSNZrbH8w4
+        description: A lecture series by Sheikh Murtaza Alidina examining the Holy verses of Surah Waqiah.
+      - video_id: l1x1gR7PVb4
+        title: Tafsir Surah Waqiah - Episode 3
+        url: https://www.youtube.com/watch?v=l1x1gR7PVb4
+        description: A lecture series by Sheikh Murtaza Alidina examining the Holy verses of Surah Waqiah.
+      - video_id: yvbY_v3_96c
+        title: Tafsir Surah Waqiah - Episode 4
+        url: https://www.youtube.com/watch?v=yvbY_v3_96c
+        description: A lecture series by Sheikh Murtaza Alidina examining the Holy verses of Surah Waqiah.
+      - video_id: 2o7PzYfhRy8
+        title: Tafsir Surah Waqiah - Episode 5
+        url: https://www.youtube.com/watch?v=2o7PzYfhRy8
+        description: A lecture series by Sheikh Murtaza Alidina examining the Holy verses of Surah Waqiah.
+      - video_id: Z_tiEU5tbCg
+        title: Tafsir Surah Waqiah - Episode 6
+        url: https://www.youtube.com/watch?v=Z_tiEU5tbCg
+        description: A lecture series by Sheikh Murtaza Alidina examining the Holy verses of Surah Waqiah.
+    surah_number: 56
+    speaker: Sheikh Murtaza Alidina
   - id: surah-al-hadid
     title: Surah Al-Hadid
     surah_number: 57
@@ -1955,6 +2245,30 @@ series:
         url: https://www.youtube.com/watch?v=FC6EZP2Se-4
         description: 14th Day - July 13th, 2013
     speaker: Sayyid Muhammad Rizvi
+  - id: surah-al-jumuah
+    title: Surah Al-Jumuah
+    description: "Tafsir of Surah Al-Jumuah (Surah #62) - Partial"
+    playlist_id: PLpkB0iwLgfTYYH8suI1vwQD-MBNazq-Pq
+    playlist_url: https://www.youtube.com/playlist?list=PLpkB0iwLgfTYYH8suI1vwQD-MBNazq-Pq
+    thumbnail_video_id: D9gapshX3tI
+    episodes:
+      - video_id: D9gapshX3tI
+        title: 1. Tafseer of Surah Juma - Shaikh Hasanayn Kassamali
+        url: https://www.youtube.com/watch?v=D9gapshX3tI
+        description: Shaikh Hasanayn Kassamali begins the tafseer of Surah Juma.
+      - video_id: u7DQsfax-nw
+        title: 2. Tafseer of Surah Juma - Shaikh Hasanayn Kassamali
+        url: https://www.youtube.com/watch?v=u7DQsfax-nw
+        description: "Shaikh Hasanayn Kassamali contines the tafseer of Surah Al-Jumu'ah (Surah # 62)."
+      - video_id: mfmky-vZ02Y
+        title: 4. Tafseer of Surah Al-Jumu'ah - Shaikh Hasanayn Kassamali
+        url: https://www.youtube.com/watch?v=mfmky-vZ02Y
+        description: "Shaikh Hasanayn Kassamali continues the tafseer of Surah Al-Jumu'ah (Surah # 62)."
+      - video_id: JYWMG1CBRro
+        title: 5. Tafseer of Surah Al-Jumu'ah - Shaikh Hasanayn Kassamali
+        url: https://www.youtube.com/watch?v=JYWMG1CBRro
+        description: "Shaikh Hasanayn Kassamali contines the tafseer of Surah Al-Jumu'ah (Surah # 62)."
+    surah_number: 62
   - id: surah-at-talaq
     title: Surah at-Talaq
     surah_number: 65
@@ -2107,4 +2421,278 @@ series:
           Tafsir of Suratul Mulk (verses 28-30) 
           Review of the whole surah
     speaker: Syed Muhammad Rizvi
+  - id: surah-nuh
+    title: Surah Nuh
+    description: "Tafsir of Surah Nuh (Surah #71)"
+    playlist_id: PLpkB0iwLgfTYdTSYPPn_duwsg8XsCTNIX
+    playlist_url: https://www.youtube.com/playlist?list=PLpkB0iwLgfTYdTSYPPn_duwsg8XsCTNIX
+    thumbnail_video_id: r7V3Kgwi194
+    episodes:
+      - video_id: r7V3Kgwi194
+        title: "[1] Exegesis of Surah Nuh (#71) - by Khalil Jaffer"
+        url: https://www.youtube.com/watch?v=r7V3Kgwi194
+        description: |-
+          Exegesis of Surah Nuh of the Holy Quran - Intro & Verses 1 - 2
+          Discusses the life and history of Prophet Noah as presented in this Surah
+      - video_id: R6kZNHYvsdQ
+        title: "[2] Exegesis of Surah Nuh (#71) - by Khalil Jaffer"
+        url: https://www.youtube.com/watch?v=R6kZNHYvsdQ
+        description: |-
+          Exegesis of Surah Nuh of the Holy Quran - Verses 3 - 4
+          Discusses the life and history of Prophet Noah as presented in this Surah
+      - video_id: kN-OGVl2ddo
+        title: "[3] Exegesis of Surah Nuh (#71) - by Khalil Jaffer"
+        url: https://www.youtube.com/watch?v=kN-OGVl2ddo
+        description: |-
+          Exegesis of Surah Nuh of the Holy Quran - Verses 5-11
+          Discusses the life and history of Prophet Noah as presented in this Surah
+      - video_id: u6KTLW9oWf4
+        title: "[4] Exegesis of Surah Nuh (#71) - by Khalil Jaffer - Verses 12-23"
+        url: https://www.youtube.com/watch?v=u6KTLW9oWf4
+        description: |-
+          Exegesis of Surah Nuh of the Holy Quran
+          Discusses the life and history of Prophet Noah as presented in this Surah
+      - video_id: ax6q9uD9Xgo
+        title: "[5] Exegesis of Surah Nuh (#71) and Q&A - by Khalil Jaffer"
+        url: https://www.youtube.com/watch?v=ax6q9uD9Xgo
+        description: |-
+          Exegesis of Surah Nuh of the Holy Quran - Verses 24-28
+          Discusses the life and history of Prophet Noah as presented in this Surah
+    surah_number: 71
+  - id: surah-qiyamah
+    title: Surah Qiyamah
+    description: "Tafsir of Surah Qiyamah (Surah #75)"
+    playlist_id: PLpkB0iwLgfTb7hrIzbi-bp3HXvHAx60Co
+    playlist_url: https://www.youtube.com/playlist?list=PLpkB0iwLgfTb7hrIzbi-bp3HXvHAx60Co
+    thumbnail_video_id: YAY9M6eBODU
+    episodes:
+      - video_id: YAY9M6eBODU
+        title: Surah Qiyamah - Lecture 1
+        url: https://www.youtube.com/watch?v=YAY9M6eBODU
+        description: Join Ahlulbayt TV with a lecture series by Sheikh Murtaza Alidina as he analyses the Holy verses of Surah Qiyamah in the Quran.
+      - video_id: DfNLGyFbg2Y
+        title: Surah Qiyamah - Lecture 2
+        url: https://www.youtube.com/watch?v=DfNLGyFbg2Y
+        description: Join Ahlulbayt TV with a lecture series by Sheikh Murtaza Alidina as he analyses the Holy verses of Surah Qiyamah in the Quran.
+      - video_id: YMYamxZKSCw
+        title: Surah Qiyamah - Lecture 3
+        url: https://www.youtube.com/watch?v=YMYamxZKSCw
+        description: Join Ahlulbayt TV with a lecture series by Sheikh Murtaza Alidina as he analyses the Holy verses of Surah Qiyamah in the Quran.
+      - video_id: 2KAjFhfO-84
+        title: Surah Qiyamah - Lecture 4
+        url: https://www.youtube.com/watch?v=2KAjFhfO-84
+        description: Join Ahlulbayt TV with a lecture series by Sheikh Murtaza Alidina as he analyses the Holy verses of Surah Qiyamah in the Quran.
+      - video_id: NJ6sBLCSyqM
+        title: Surah Qiyamah - Lecture 5
+        url: https://www.youtube.com/watch?v=NJ6sBLCSyqM
+        description: Join Ahlulbayt TV with a lecture series by Sheikh Murtaza Alidina as he analyses the Holy verses of Surah Qiyamah in the Quran.
+    surah_number: 75
+    speaker: Sheikh Murtaza Alidina
+  - id: surah-al-ala
+    title: Surah Al-Ala
+    description: "Tafsir of Surah Al-Ala (Surah #87)"
+    playlist_id: PLpkB0iwLgfTY4Iv2UJqVHiBlCCwpENl9l
+    playlist_url: https://www.youtube.com/playlist?list=PLpkB0iwLgfTY4Iv2UJqVHiBlCCwpENl9l
+    thumbnail_video_id: uqoGSNqXXDM
+    episodes:
+      - video_id: uqoGSNqXXDM
+        title: 1. Tafseer of Surah Al-'A`la; Hadith on the Month of Ramadhan - Shaikh Hasanayn Kassamali
+        url: https://www.youtube.com/watch?v=uqoGSNqXXDM
+        description: "Shaikh Hasanayn Kassamali begins with a hadith on the importance of the month of Ramadhan after which he begins the Tafseer of Surah Al-'A`la (Surah # 87)."
+      - video_id: b3H7Z0apm8c
+        title: 2. Tafseer of Surah Al-'A`la; Hadith on the Month of Ramadhan - Shaikh Hasanayn Kassamali
+        url: https://www.youtube.com/watch?v=b3H7Z0apm8c
+        description: "Shaikh Hasanayn Kassamali begins with a hadith on the importance of the month of Ramadhan after which he continues with the Tafseer of Surah Al-'A`la (Surah # 87)."
+      - video_id: a7B8ELImcWw
+        title: 3. Tafseer of Surah Al-'A`la; Importance of the Month of Ramadhan - Shaikh Hasanayn Kassamali
+        url: https://www.youtube.com/watch?v=a7B8ELImcWw
+        description: "Shaikh Hasanayn Kassamali begins with a hadith on the importance of the month of Ramadhan after which he continues with the Tafseer of Surah Al-'A`la (Surah # 87)."
+      - video_id: Xo2ONP6uOIo
+        title: 4. Tafseer of Surah Al-'A`la; Importance of the Month of Ramadhan - Shaikh Hasanayn Kassamali
+        url: https://www.youtube.com/watch?v=Xo2ONP6uOIo
+        description: "Shaikh Hasanayn Kassamali begins with another hadith on the importance of the month of Ramadhan after which he continues with the Tafseer of Surah Al-'A`la (Surah # 87)."
+      - video_id: zQ6X7d2Ibto
+        title: 5. Tafseer of Surah Al-'A`la; Importance of the Month of Ramadhan - Shaikh Hasanayn Kassamali
+        url: https://www.youtube.com/watch?v=zQ6X7d2Ibto
+        description: "Shaikh Hasanayn Kassamali begins with another hadith on the importance of the month of Ramadhan after which he continues with the Tafseer of Surah Al-'A`la (Surah # 87)."
+    surah_number: 87
+  - id: surah-ad-duha
+    title: Surah Ad-Duha
+    description: "Tafsir of Surah Ad-Duha (Surah #93)"
+    playlist_id: PLpkB0iwLgfTZyJjxZg8k-lpZ0pLTTgtVw
+    playlist_url: https://www.youtube.com/playlist?list=PLpkB0iwLgfTZyJjxZg8k-lpZ0pLTTgtVw
+    thumbnail_video_id: J478EB0fnms
+    episodes:
+      - video_id: J478EB0fnms
+        title: 1. Tafseer of Surah Ad-Duhaa; Understanding the Greatness of Ramadhan - Shaikh Hasanayn Kassamali
+        url: https://www.youtube.com/watch?v=J478EB0fnms
+        description: Shaikh Hasanayn Kassamali explains how we can understand the greatness and sanctity of the month Ramadhan through its many names.
+      - video_id: wJmUF9YdWEs
+        title: 2. Tafseer of Surah Ad-Duhaa - Shaikh Hasanayn Kassamali
+        url: https://www.youtube.com/watch?v=wJmUF9YdWEs
+        description: Shaikh Hasanayn Kassamali continues with a few more names of the holy month of Ramadhan which help us understand it's greatness and sanctity.
+      - video_id: IFiHQf08qu0
+        title: 3. Tafseeer of Surah Ad-Duhaa; Names of the Month of Ramadhan - Shaikh Hasanayn Kassamali
+        url: https://www.youtube.com/watch?v=IFiHQf08qu0
+        description: Shaikh Hasanayn Kassamali begins with some more names of the Holy Month of Ramadhan, which help us understand it's greatness and sanctity.
+    surah_number: 93
+  - id: ayat-ul-kursi
+    title: Ayat-ul-Kursi
+    description: Tafsir of Ayat-ul-Kursi
+    playlist_id: PLpkB0iwLgfTY5_dddDv_Gl-Ams-S8VwO8
+    playlist_url: https://www.youtube.com/playlist?list=PLpkB0iwLgfTY5_dddDv_Gl-Ams-S8VwO8
+    thumbnail_video_id: qc9q5k3gNBg
+    episodes:
+      - video_id: qc9q5k3gNBg
+        title: "[Private video]"
+        url: https://www.youtube.com/watch?v=qc9q5k3gNBg
+      - video_id: IZ1Fh_IAC5A
+        title: Tafsir of al-Kursi; Interpretation By Shias Vs. Wahhabis - Maulana Syed Muhammad Rizvi
+        url: https://www.youtube.com/watch?v=IZ1Fh_IAC5A
+        description: |-
+          - Discussing Ayat-ul-Kursi, specifically the term 'al-Kursi'
+          - The Concept of the 'Seat' or 'Throne' of Allah, and Its Deeper Meanings
+          - Literal Interpretations of Salafis and Wahhabis Compared to the Metaphorical Meanings Accepted By Shias and Others
+          - Also Discussing the Related Term 'al-Arsh'
+          - Sura al-Baqarah
+  - id: bismillah
+    title: Bismillah Tafsir
+    description: Tafsir of Bismillah Tafsir
+    playlist_id: PLpkB0iwLgfTbdQeNLiymYkRhXuRgsm9ip
+    playlist_url: https://www.youtube.com/playlist?list=PLpkB0iwLgfTbdQeNLiymYkRhXuRgsm9ip
+    thumbnail_video_id: OG2Bt7VsRZ8
+    episodes:
+      - video_id: OG2Bt7VsRZ8
+        title: Quran Tafseer Class 1 (Bismillah) - H.I. Syed Abbas Ayleya
+        url: https://www.youtube.com/watch?v=OG2Bt7VsRZ8
+        description: Quran Tafseer Class 1 (Bismillah) - H.I. Syed Abbas Ayleya
+      - video_id: CdCr3lao6lM
+        title: Quran Tafseer Class 2 (Bismillah) - H.I. Syed Abbas Ayleya
+        url: https://www.youtube.com/watch?v=CdCr3lao6lM
+        description: Quran Tafseer Class 2 (Bismillah) - H.I. Syed Abbas Ayleya
+      - video_id: 0PaTqCknsPA
+        title: Quran Tafseer Class 3 (Bismillah) - H.I. Syed Abbas Ayleya
+        url: https://www.youtube.com/watch?v=0PaTqCknsPA
+        description: Quran Tafseer Class 3 (Bismillah) - H.I. Syed Abbas Ayleya
+      - video_id: Pb-dK2rKiDM
+        title: Quran Tafseer Class 4 (Bismillah) - H.I. Syed Abbas Ayleya
+        url: https://www.youtube.com/watch?v=Pb-dK2rKiDM
+        description: Quran Tafseer Class 4 (Bismillah) - H.I. Syed Abbas Ayleya
+      - video_id: bFidKKfE0TA
+        title: Quran Tafsser Class 5 (Bismillah) - H.I. Syed Abbas Ayleya
+        url: https://www.youtube.com/watch?v=bFidKKfE0TA
+        description: Quran Tafseer Class 5 (Bismillah) - H.I. Syed Abbas Ayleya
+      - video_id: 4vvA4nO_LNw
+        title: Quran Tafseer Class 6 (Bismillah) - H.I. Syed Abbas Ayleya
+        url: https://www.youtube.com/watch?v=4vvA4nO_LNw
+        description: Quran Tafseer Class 6 (Bismillah) - H.I. Syed Abbas Ayleya
+      - video_id: zt0ErDksWmc
+        title: Quran Tafseer Class 7 (Bismillah) - H.I. Syed Abbas Ayleya
+        url: https://www.youtube.com/watch?v=zt0ErDksWmc
+        description: Quran Tafseer Class 7 (Bismillah) - H.I. Syed Abbas Ayleya
+      - video_id: n8TlAUUtEwg
+        title: Quran Tafseer Class 8 (Bismillah) - H.I. Syed Abbas Ayleya
+        url: https://www.youtube.com/watch?v=n8TlAUUtEwg
+        description: Quran Tafseer Class 8 (Bismillah) - H.I. Syed Abbas Ayleya
+      - video_id: afoN47i-IUY
+        title: Quran Tafseer Class 9 (Bismillah) - H.I. Syed Abbas Ayleya
+        url: https://www.youtube.com/watch?v=afoN47i-IUY
+        description: Quran Tafseer Class 9 (Bismillah) - H.I. Syed Abbas Ayleya
+      - video_id: iqZZN-n5NHQ
+        title: Quran Tafseer Class 10 (Bismillah) - H.I. Syed Abbas Ayleya
+        url: https://www.youtube.com/watch?v=iqZZN-n5NHQ
+        description: Quran Tafseer Class 10 (Bismillah) - H.I. Syed Abbas Ayleya
+      - video_id: xdpFT9sQyX0
+        title: Quran Tafseer Class 11 (Bismillah) - H.I. Syed Abbas Ayleya
+        url: https://www.youtube.com/watch?v=xdpFT9sQyX0
+        description: Quran Tafseer Class 11 (Bismillah) - H.I. Syed Abbas Ayleya
+      - video_id: K0lwcshiZCM
+        title: Quran Tafseer Class 12 (Bismillah) - H.I. Syed Abbas Ayleya
+        url: https://www.youtube.com/watch?v=K0lwcshiZCM
+        description: Quran Tafseer Class 12 (Bismillah) - H.I. Syed Abbas Ayleya
+      - video_id: 9iPPm4-GoqY
+        title: Quran Tafseer Class 13 (Bismillah) - H.I. Syed Abbas Ayleya
+        url: https://www.youtube.com/watch?v=9iPPm4-GoqY
+        description: Quran Tafseer Class 13 (Bismillah) - H.I. Syed Abbas Ayleya
+      - video_id: aKALkV8MB1s
+        title: Quran Tafseer Class 14 (Bismillah) - H.I. Syed Abbas Ayleya
+        url: https://www.youtube.com/watch?v=aKALkV8MB1s
+        description: Quran Tafseer Class 14 (Bismillah) - H.I. Syed Abbas Ayleya
+      - video_id: jyaVUGxhoY4
+        title: Quran Tafseer Class 15 (Bismillah) - H.I. Syed Abbas Ayleya
+        url: https://www.youtube.com/watch?v=jyaVUGxhoY4
+        description: Quran Tafseer Class 15 (Bismillah) - H.I. Syed Abbas Ayleya
+      - video_id: 2RtBlYZvyIY
+        title: Quran Tafseer Class 16 (Bismillah) - H.I. Syed Abbas Ayleya
+        url: https://www.youtube.com/watch?v=2RtBlYZvyIY
+        description: Quran Tafseer Class 16 (Bismillah) - H.I. Syed Abbas Ayleya
+      - video_id: Vrj2S1y0cmk
+        title: Quran Tafseer Class 17 (Bismillah) - H.I. Syed Abbas Ayleya
+        url: https://www.youtube.com/watch?v=Vrj2S1y0cmk
+        description: Quran Tafseer Class 17 (Bismillah) - H.I. Syed Abbas Ayleya
+      - video_id: ANDRG_AEtKc
+        title: Quran Tafseer Class 18 (Bismillah) - H.I. Syed Abbas Ayleya
+        url: https://www.youtube.com/watch?v=ANDRG_AEtKc
+        description: Quran Tafseer Class 18 (Bismillah) - H.I. Syed Abbas Ayleya
+      - video_id: heSHkb22RAM
+        title: Quran Tafseer Class 19 (Bismillah) - H.I. Syed Abbas Ayleya
+        url: https://www.youtube.com/watch?v=heSHkb22RAM
+        description: Quran Tafseer Class 19 (Bismillah) - H.I. Syed Abbas Ayleya
+      - video_id: c-IZeJH-Noc
+        title: Quran Tafseer Class 20 (Bismillah) - H.I. Syed Abbas Ayleya
+        url: https://www.youtube.com/watch?v=c-IZeJH-Noc
+        description: |-
+          Quran Tafseer Class 20 (Bismillah) 
+          by H.I. Syed Abbas Ayleya
+      - video_id: s2f6KcbAd0I
+        title: Quran Tafseer Class 21 (Bismillah) - H.I. Syed Abbas Ayleya
+        url: https://www.youtube.com/watch?v=s2f6KcbAd0I
+        description: |-
+          Quran Tafseer Class 21 (Bismillah) 
+          by H.I. Syed Abbas Ayleya
+      - video_id: HKgKUcGHDv4
+        title: Quran Tafseer Class 22 (Bismillah) - H.I. Syed Abbas Ayleya
+        url: https://www.youtube.com/watch?v=HKgKUcGHDv4
+        description: |-
+          Quran Tafseer Class 22 (Bismillah) 
+          by H.I. Syed Abbas Ayleya
+      - video_id: zFE67ERiAN0
+        title: Quran Tafseer Class 23 (Bismillah) - H.I. Syed Abbas Ayleya
+        url: https://www.youtube.com/watch?v=zFE67ERiAN0
+        description: |-
+          Ref: Tafseer Noor uth-Thaqalayn v.1 p.19/p.24
+          February 22 2019
+      - video_id: GMQu2BYXZMs
+        title: Quran Tafseer Class 24 (Bismillah) - H.I. Syed Abbas Ayleya
+        url: https://www.youtube.com/watch?v=GMQu2BYXZMs
+        description: March 05 2019
+      - video_id: pUwWd7vQnwQ
+        title: Quran Tafseer Class 25 (Bismillah) - H.I. Syed Abbas Ayleya
+        url: https://www.youtube.com/watch?v=pUwWd7vQnwQ
+        description: |-
+          March 12 2019
+          Huroof-al-Muqattaat (The Broken Letters)
+      - video_id: Liwax5FD9BY
+        title: Quran Tafseer Class 26 (Bismillah) - H.I. Syed Abbas Ayleya
+        url: https://www.youtube.com/watch?v=Liwax5FD9BY
+        description: March 26 2019
+      - video_id: Voa0q8JKA1A
+        title: Quran Tafseer Class 27 (Bismillah) - H.I. Syed Abbas Ayleya
+        url: https://www.youtube.com/watch?v=Voa0q8JKA1A
+        description: April 02 2019
+      - video_id: _COZpXq6v_s
+        title: Quran Tafseer Class 29 (Bismillah) - H.I. Syed Abbas Ayleya
+        url: https://www.youtube.com/watch?v=_COZpXq6v_s
+        description: April 16 2019
+      - video_id: iUkwltl3hW0
+        title: Quran Tafseer Class 28 (Bismillah) - H.I. Syed Abbas Ayleya
+        url: https://www.youtube.com/watch?v=iUkwltl3hW0
+        description: April 09 2019
+      - video_id: GROVrBVsKxY
+        title: Quran Tafseer Class 30 (Bismillah) - H.I. Syed Abbas Ayleya
+        url: https://www.youtube.com/watch?v=GROVrBVsKxY
+        description: |-
+          "The Grammatical Perspective"
+          April 23 2019
+    speaker: H.I. Abbas Ayleya
 
