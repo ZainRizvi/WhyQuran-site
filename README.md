@@ -1,43 +1,50 @@
-# Astro Starter Kit: Minimal
+# Why Quran
 
-```sh
-npm create astro@latest -- --template minimal
+Quran tafsirs and Islamic lectures based on the teachings of the Ahlul Bayt.
+
+## About
+
+This is the source code for [why-quran.org](https://why-quran.org), a website hosting Quran tafsir video series and the Life of Prophet Muhammad lecture series by Sheikh Azhar Nasser.
+
+## Content
+
+- **The Life of Prophet Muhammad** - A comprehensive 103-episode seerah series
+- **Surah Tawbah Tafsir** - Verse-by-verse commentary
+- **Surah Al-Anbiya Tafsir** - Verse-by-verse commentary
+- **Surah Ar-Rum Tafsir** - Verse-by-verse commentary
+- **Surah Fatir Tafsir** - Verse-by-verse commentary
+- **Surah Hujurat Tafsir** - Verse-by-verse commentary
+
+## Tech Stack
+
+- [Astro](https://astro.build) - Static site generator
+- TypeScript
+- YouTube embeds for video content
+
+## Data Structure
+
+All video series data is stored in `src/data/series.yaml` as the single source of truth. This includes:
+- Series metadata (title, description, speaker, playlist URLs)
+- Episode data (video IDs, titles, descriptions)
+- Podcast links where available
+
+## Development
+
+```bash
+# Install dependencies
+npm install
+
+# Start dev server
+npm run dev
+
+# Build for production
+npm run build
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Scripts
 
-## 🚀 Project Structure
+- `scripts/fetch-video-descriptions.js` - Fetches video descriptions from YouTube metadata
 
-Inside of your Astro project, you'll see the following folders and files:
+## License
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Content is property of Why Quran / Sheikh Azhar Nasser.
