@@ -1,0 +1,77 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Subscribe"
+  description="Subscribe to Why-Quran.org for updates on new lectures"
+>
+  <div class="page-header">
+    <div class="container">
+      <h1>Subscribe</h1>
+      <p>Stay updated with new lectures and content</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container subscribe-content">
+      <p>
+        The best way to stay updated with new lectures is to subscribe to our
+        YouTube channel:
+      </p>
+
+      <a
+        href="https://www.youtube.com/c/whyquran?sub_confirmation=1"
+        class="btn btn-primary youtube-btn"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <svg viewBox="0 0 24 24" fill="currentColor">
+          <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+        </svg>
+        Subscribe on YouTube
+      </a>
+
+      <p>
+        You can also follow <a href="https://tasneeminstitute.org/" target="_blank" rel="noopener noreferrer">Tasneem Institute</a>
+        for updates on upcoming courses and events.
+      </p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .subscribe-content {
+    max-width: 600px;
+    text-align: center;
+  }
+
+  .subscribe-content p {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    margin: 1.5rem 0;
+  }
+
+  .youtube-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: #ff0000;
+    margin: 1rem 0;
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+  }
+
+  .youtube-btn:hover {
+    background: #cc0000;
+  }
+
+  .youtube-btn svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  .subscribe-content a {
+    color: var(--color-primary);
+  }
+</style>

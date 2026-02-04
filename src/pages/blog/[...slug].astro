@@ -1,0 +1,94 @@
+---
+import { getCollection } from 'astro:content';
+import LectureLayout from '../../layouts/LectureLayout.astro';
+import yaml from 'js-yaml';
+import fs from 'node:fs';
+import path from 'node:path';
+
+// Load series data from YAML to get video IDs and descriptions
+const dataPath = path.join(process.cwd(), 'src/data/series.yaml');
+const fileContents = fs.readFileSync(dataPath, 'utf8');
+const seriesData = yaml.load(fileContents) as {
+  series: Array<{
+    id: string;
+    episodes: Array<{ video_id: string; title: string; url: string; description?: string }>;
+  }>;
+};
+
+// Build maps of episode numbers to video IDs and descriptions from the Prophet Muhammad series
+const prophetSeries = seriesData.series.find(s => s.id === 'the-life-of-prophet-muhammad');
+const episodeToVideoId = new Map<number, string>();
+const episodeToDescription = new Map<number, string>();
+if (prophetSeries) {
+  prophetSeries.episodes.forEach((ep) => {
+    const match = ep.title.match(/^\[(\d+)\]/);
+    if (match) {
+      const epNum = parseInt(match[1], 10);
+      episodeToVideoId.set(epNum, ep.video_id);
+      if (ep.description) {
+        episodeToDescription.set(epNum, ep.description);
+      }
+    }
+  });
+}
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+
+  // Sort by date for navigation
+  const sortedPosts = [...posts].sort((a, b) =>
+    a.data.date.getTime() - b.data.date.getTime()
+  );
+
+  return sortedPosts.map((post, index) => {
+    const prevPost = index > 0 ? sortedPosts[index - 1] : null;
+    const nextPost = index < sortedPosts.length - 1 ? sortedPosts[index + 1] : null;
+
+    return {
+      params: { slug: post.data.permalink },
+      props: {
+        post,
+        prevPost: prevPost
+          ? {
+              slug: prevPost.data.permalink,
+              title: prevPost.data.title,
+            }
+          : undefined,
+        nextPost: nextPost
+          ? {
+              slug: nextPost.data.permalink,
+              title: nextPost.data.title,
+            }
+          : undefined,
+      },
+    };
+  });
+}
+
+const { post, prevPost, nextPost } = Astro.props;
+const { Content } = await post.render();
+
+// Get the correct video ID and description from YAML
+let youtubeId = post.data.youtubeId;
+let videoDescription: string | undefined;
+if (post.data.episode) {
+  if (episodeToVideoId.has(post.data.episode)) {
+    youtubeId = episodeToVideoId.get(post.data.episode);
+  }
+  if (episodeToDescription.has(post.data.episode)) {
+    videoDescription = episodeToDescription.get(post.data.episode);
+  }
+}
+---
+
+<LectureLayout
+  title={post.data.title}
+  date={post.data.date}
+  youtubeId={youtubeId}
+  videoDescription={videoDescription}
+  slides={post.data.slides}
+  prevPost={prevPost}
+  nextPost={nextPost}
+>
+  <Content />
+</LectureLayout>

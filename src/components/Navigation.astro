@@ -1,0 +1,92 @@
+---
+interface Props {
+  prevPost?: {
+    slug: string;
+    title: string;
+  };
+  nextPost?: {
+    slug: string;
+    title: string;
+  };
+}
+
+const { prevPost, nextPost } = Astro.props;
+
+function truncateTitle(title: string) {
+  return title.length > 40 ? title.slice(0, 40) + '...' : title;
+}
+---
+
+<nav class="post-nav" aria-label="Post navigation">
+  {prevPost ? (
+    <a href={`/blog/${prevPost.slug}/`} class="nav-prev">
+      <span class="nav-direction">Previous</span>
+      <span class="nav-title">{truncateTitle(prevPost.title)}</span>
+    </a>
+  ) : (
+    <div></div>
+  )}
+
+  {nextPost ? (
+    <a href={`/blog/${nextPost.slug}/`} class="nav-next">
+      <span class="nav-direction">Next</span>
+      <span class="nav-title">{truncateTitle(nextPost.title)}</span>
+    </a>
+  ) : (
+    <div></div>
+  )}
+</nav>
+
+<style>
+  .post-nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin: 3rem 0;
+    padding-top: 2rem;
+    border-top: 1px solid var(--color-border);
+  }
+
+  .nav-prev,
+  .nav-next {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background: var(--color-bg-secondary);
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.2s;
+  }
+
+  .nav-prev:hover,
+  .nav-next:hover {
+    background: var(--color-bg-tertiary);
+  }
+
+  .nav-prev {
+    text-align: left;
+  }
+
+  .nav-next {
+    text-align: right;
+  }
+
+  .nav-direction {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-text-light);
+    margin-bottom: 0.25rem;
+  }
+
+  .nav-title {
+    font-weight: 600;
+    color: var(--color-primary);
+  }
+
+  @media (max-width: 600px) {
+    .post-nav {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

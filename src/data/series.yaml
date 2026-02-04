@@ -1,0 +1,986 @@
+channel:
+  name: Why Quran
+  youtube_url: https://www.youtube.com/@WhyQuran
+  youtube_channel_id: WhyQuran
+series:
+  - id: the-life-of-prophet-muhammad
+    title: The Life of Prophet Muhammad
+    description: A comprehensive 103-episode seerah series exploring the Prophet's biography from birth to passing, drawing from authentic Sunni and Shia historical sources.
+    speaker: Sheikh Azhar Nasser
+    playlist_id: PLpkB0iwLgfTat-Pgh4W3WFmupPamiC9UT
+    playlist_url: https://www.youtube.com/playlist?list=PLpkB0iwLgfTat-Pgh4W3WFmupPamiC9UT
+    thumbnail_video_id: EBoMuqBrl8M
+    has_dedicated_page: true
+    episodes:
+      - video_id: EBoMuqBrl8M
+        title: "[1] Reconstructing the Prophetic Biography"
+        url: https://www.youtube.com/watch?v=EBoMuqBrl8M
+        description: How was the biography of the Prophet compiled? Who collected the details and why are there conflicting accounts about his seerah? Sheikh Azhar investigates the differences between the sources.
+      - video_id: NKOWZosY5DM
+        title: "[2] The Prophet's Ancestors"
+        url: https://www.youtube.com/watch?v=NKOWZosY5DM
+        description: Were all of Prophet Muhammad's ancestors Muslims? Did any prophet have disbelieving parents? Sheikh Azhar Nasser explains the different views.
+      - video_id: 33FbC6woSAw
+        title: "[3] Abdul Muttalib & the recovery of Zamzam"
+        url: https://www.youtube.com/watch?v=33FbC6woSAw
+        description: The Prophet Muhammad's grandfather, Abdul Muttalib, rediscovers the well of Zamzam after it was lost for centuries
+      - video_id: 8vArPmFd-OI
+        title: "[4] The Elephant Army"
+        url: https://www.youtube.com/watch?v=8vArPmFd-OI
+        description: A governor tries to destroy the Kaaba with his army of elephants, but Allah protects his own house
+      - video_id: GYikR0LgHNY
+        title: "[5] The Age of Ignorance"
+        url: https://www.youtube.com/watch?v=GYikR0LgHNY
+        description: The political, econimic, social, and religious climate of the Arabs during the 200 years of the age of ignorance, also known as the time of jahiliyya, described by Sheikh Azhar Nasser
+      - video_id: DdklSU8K6DE
+        title: "[6] The Prophet's Parents"
+        url: https://www.youtube.com/watch?v=DdklSU8K6DE
+        description: The marriage of the prophet's parents, Abdullah and Aminah, Abdullah's death, and the birth of the Prophet Muhammad, described by Sheikh Azhar Nasser
+      - video_id: V5c8F6uzUY0
+        title: "[7] Living with the Bedouins"
+        url: https://www.youtube.com/watch?v=V5c8F6uzUY0
+        description: Soon after his birth, the Prophet Muhammad went to live with the bedouins and his wet nurse Halima. Described by Sheikh Azhar Nasser
+      - video_id: vvYyy7d0FxY
+        title: "[8] The Prophet's Guardians"
+        url: https://www.youtube.com/watch?v=vvYyy7d0FxY
+        description: In his early years the prophet Muhammad was looked after by Halima, his mother Amina, his grandfather Abdul Mutalib, and his uncle Abu Talib. Sheikh Azhar talks describes each of them and the level to which they believed in his greatness even from childhood, comparing Sunnia and Shia views on them.
+      - video_id: cF1Xct5FORM
+        title: "[9] The Sacrilegious Wars"
+        url: https://www.youtube.com/watch?v=cF1Xct5FORM
+        description: The divine guidance Prophet Muhammad received from childhood, the Sacrilegious wars, and the Fudul Pact made by the Quraysh to uphold justice
+      - video_id: St4I5BLD7M8
+        title: "[10] How old was Khadija?"
+        url: https://www.youtube.com/watch?v=St4I5BLD7M8
+        description: The Prophet's most beloved wife, Khadijah. How they met, their wedding, and the controversy around how old Khadijah was when she married the Prophet
+      - video_id: GyL76GrvCko
+        title: "[11] Fatherhood"
+        url: https://www.youtube.com/watch?v=GyL76GrvCko
+        description: The Prophet's adopted son Zaid bin Harithah, the birth of Imam Ali, and of Lady Fatima
+      - video_id: opIXrg9M3po
+        title: "[12] Trained by Angels"
+        url: https://www.youtube.com/watch?v=opIXrg9M3po
+        description: Allah sent angels to guide the Prophet Muhammad's spiritual development.
+      - video_id: PH4-uY4hzSg
+        title: "[13] A Tranquil First Revelation"
+        url: https://www.youtube.com/watch?v=PH4-uY4hzSg
+        description: Debunking the story of the Prophet being agitated when the first verse of the Quran was revealed to him. Sheikh Azhar Nasser describes when it happend, the tranquility the prophet felt, and explains how the alternative narrative took root.
+      - video_id: voU-1CqPvK8
+        title: "[14] The First Five Months"
+        url: https://www.youtube.com/watch?v=voU-1CqPvK8
+        description: In the first 5 months of Quranic revelation 46 surahs were revealed, and they highlight the situation of the early Muslims. Sheikh Azhar also describes who the earliest covnerts are and what the evidence indicates about when Abu Bakr converted to Islam.
+      - video_id: wXwa8CoPNlM
+        title: "[15] Why did the Quraysh resist Islam?"
+        url: https://www.youtube.com/watch?v=wXwa8CoPNlM
+        description: 10 reasons why the Quraysh were opposed to Islam
+      - video_id: rOFfxHQJ1_A
+        title: "[16] Opposition Tactics of the Quraysh"
+        url: https://www.youtube.com/watch?v=rOFfxHQJ1_A
+        description: 7 tactics the Quraysh used to attack Prophet Muhammad and his message, given by Sheikh Azhar Nasser
+      - video_id: m4rVVNKRh28
+        title: "[17] More Opposition Tactics"
+        url: https://www.youtube.com/watch?v=m4rVVNKRh28
+        description: Additional tactics the Quraysh used to attack Prophet Muhammad and his message, given by Sheikh Azhar Nasser
+      - video_id: Ec7Jx-XivjI
+        title: "[18] Hijra to Abyssinia"
+        url: https://www.youtube.com/watch?v=Ec7Jx-XivjI
+        description: Stories of the first two hijras, which went to Abyssinia. Given by Sheikh Azhar Nasser
+      - video_id: JYcFVITPmQs
+        title: "[19] The Satanic Verses"
+        url: https://www.youtube.com/watch?v=JYcFVITPmQs
+        description: Why did the Muslims return from Abyssinia? Debunking myths and rumors, by Sheikh Azhar Nasser
+      - video_id: 63hYqtDUESo
+        title: "[20] Umar's Conversion"
+        url: https://www.youtube.com/watch?v=63hYqtDUESo
+        description: Describes how Umar converted and his impact on Islam, as well as the Abyssinian king Najashi's conversion to Islam, by Sheikh Azhar Nasser
+      - video_id: XnRy5HWLeD0
+        title: "[21] Meraj - The Night Journey"
+        url: https://www.youtube.com/watch?v=XnRy5HWLeD0
+        description: Isra, the miraculous night journey the Prophet Muhammad took at night, and Meraj, his ascention to heaven, by Sheikh Azhar Nasser
+      - video_id: ALVraq9b23E
+        title: "[22] Meraj II - The Ascension"
+        url: https://www.youtube.com/watch?v=ALVraq9b23E
+        description: The Prophet Muhammad's journey during meraj, and what he witnessed as he traveled through the heavens, by Sheikh Azhar Nasser
+      - video_id: Kr2hLkBCJcg
+        title: "[23] Meraj III - The Ascension"
+        url: https://www.youtube.com/watch?v=Kr2hLkBCJcg
+        description: The Prophet Muhammad's journey during meraj, and what he witnessed as he traveled through the heavens, by Sheikh Azhar Nasser
+      - video_id: _P109lxM4PU
+        title: "[24] Meraj IV - Edge of Heaven"
+        url: https://www.youtube.com/watch?v=_P109lxM4PU
+        description: The Prophet Muhammad visits Bayt al-Ma'mur, the rivers Kawthar and Rahmah during meraj, and the lote tree Sidratul Muntaha, by Sheikh Azhar Nasser
+      - video_id: n_ezcl7O3k4
+        title: "[25] Boycott of Bani Hashim"
+        url: https://www.youtube.com/watch?v=n_ezcl7O3k4
+        description: The Quraysh boycott Bani Hashim, demanding they hand over Prophet Muhammad. By Sheikh Azhar Nasser
+      - video_id: R5tm267eNhI
+        title: "[26] The Unsuccessful Hijras"
+        url: https://www.youtube.com/watch?v=R5tm267eNhI
+        description: Before the Prophet Muhammad's hijra to Medina, he first tried migrating to other cities. Here's what happened, by Sheikh Azhar Nasser
+      - video_id: UrYM_Uv3YOU
+        title: "[27] Getting Yathrib's Allegiance"
+        url: https://www.youtube.com/watch?v=UrYM_Uv3YOU
+        description: Medina (Yathrib) was in the middle of the civil war, when one of the factions was introduced to the Prophet Muhammad. The encounter left two men captivated, and gradually more and more people became enamored by the prophet's message. All in strict secrecy. By Sheikh Azhar Nasser
+      - video_id: hYksT1Idx4A
+        title: "[28] Hijra to Medina & the Assassination Attempt"
+        url: https://www.youtube.com/watch?v=hYksT1Idx4A
+        description: Medina (Yathrib) was ideally suited to be the new home to the Prophet's message.  This lecture describes what it was that made Medina a good location, the gradual emigration of Muslims to Medina along with the challenges they faced, the first of the two brotherhood pacts made by the muslims, and the plot to assissinate the prophet. By Sheikh Azhar Nasser
+      - video_id: MWBwdei29qE
+        title: "[29] Hirja: Abu Bakr, Ali, and Prophet Muhammad"
+        url: https://www.youtube.com/watch?v=MWBwdei29qE
+        description: "When Prophet Muhammad learned about the assassination plot against him, he choose his most trustworthy companion to be the decoy: Ali ibn Abi Talib. Why did Abu Bakr migrated with the Prophet? Sunni vs Shia views on the merits of the Quranic verse on Abu Bakr during this hijrat (Quran 9:40), and the first instance of enmity towards the prophet expressed by Abu Bakr. By Sheikh Azhar Nasser"
+      - video_id: uWgHE4DaJ60
+        title: "[30] Hijra: The First Masjid"
+        url: https://www.youtube.com/watch?v=uWgHE4DaJ60
+        description: Prophet Muhammad's arrival in Quba, the building of the Quba Masjid, and how Prophet Muhammad let Allah guide him through his camel to find a place to stay at in Medina, with the camel stopping  at Abu Ayyub al Ansari's home. Lecture by Sheikh Azhar Nasser
+      - video_id: YO1Yfm3X-SY
+        title: "[31] Building the Prophet's Mosque, Masjid al Haram"
+        url: https://www.youtube.com/watch?v=YO1Yfm3X-SY
+        description: After Prophet Muhammad settled in Abu Ayyub al-Ansari's home in Medina, he purchased the lot next to it and started building a masjid there. This became known as Al Masjid an-Nabawi (the Prophet's Mosque) and Masjid al-Haram (the Sacred Mosque). Azan was legislated soon after, and within half a year after hijra the Second Pact of Brotherhood was made between the Muhajireen and Ansaar.
+      - video_id: GlsSgEO9vPM
+        title: "[32] The Constitution of Medina"
+        url: https://www.youtube.com/watch?v=GlsSgEO9vPM
+        description: "The Prophet Muhammad had been invited to Medina to quell tensions in the city. With a few months of arriving, he created a social contract between the different tribes in they city, specifying the behaviors expected from each group: Ansar, Muhajireen, Jews, and Polythiests"
+      - video_id: AmX5uGS4ihs
+        title: "[33] The Caravan Raids"
+        url: https://www.youtube.com/watch?v=AmX5uGS4ihs
+        description: This lecture covers how the prophet changed Yathrib's name to Medina, the rise of hypocrisy in Medina as political expediency caused people to convert without having any Islamic conviction, the first time Muslims were given permission to fight and why it was granted, and the first five military expeditions of the Muslims.
+      - video_id: zg1x0xfwiK8
+        title: "[34] Marriage of Ali and Fatima"
+        url: https://www.youtube.com/watch?v=zg1x0xfwiK8
+        description: |-
+          Imam Ali and Lady Fatima got married in the 2nd year AH. This lecture covers:
+          - Lady Fatima's age at marriage (Shia vs Sunni views)
+          - The people who unsuccessfully proposed to Fatima (and their reactions to the rejection)
+          - Imam Ali's bridal gift for Lady Fatima
+          - Their valima (the wedding feast)
+      - video_id: 2-iBIU2c3Ms
+        title: "[35] Prelude to the Battle of Badr"
+        url: https://www.youtube.com/watch?v=2-iBIU2c3Ms
+        description: The Meccans wanted to bolster their military situation, not okay with the Prophet Muhammad simply relocating to Medina. The Meccans had invested heavily in a caravan led by Abu Sufyan which would let them build up their military.
+      - video_id: KPprgQ2qGjg
+        title: "[36] Preparing for the Battle of Badr"
+        url: https://www.youtube.com/watch?v=KPprgQ2qGjg
+        description: The Quraysh set out with a huge army, intending to intimidate not just the Muslims but the rest of the Arabs as well.
+      - video_id: 7HBOwrzwf-k
+        title: "[37] Battle of Badr: Opening Moves"
+        url: https://www.youtube.com/watch?v=7HBOwrzwf-k
+        description: |-
+          The Battle of Badr begins:
+          - Prophet Muhammad tried to avoid hostilities, and some of the Quraysh wanted to avoid fighting as well. But Abu Jahl instigated the conflict forwards.
+          - Fighting began with three one on one skirmishes
+          - The miracle of the prophet throwing pebbles towards the Quraysh and blinding them
+      - video_id: UQaGD67IMDY
+        title: "[38] Battle of Badr: Victory"
+        url: https://www.youtube.com/watch?v=UQaGD67IMDY
+        description: |-
+          Warfare during Battle of Badr and the Muslim's victory:
+          - The story of Umayr ibn Al-Humam, who longed for a martyrdom
+          - The two youth who killed Abu Jahl, and how they attacked him
+          - Abu Jahl's arrogance even with his dying breaths
+          - Umayyah ibn Khalaf's attempt to seek refuge once defeat was imminent
+          - Lessons taught after the battle
+      - video_id: WKnJFE1IBM4
+        title: "[39] Prisoners of War"
+        url: https://www.youtube.com/watch?v=WKnJFE1IBM4
+        description: |-
+          The immediate aftermath of the Battle of Badr, including:
+          - How the prisoners of war were treated after the battle
+          - Revelation of Surat al-Anfal, which included verses on warfare
+          - How the spoils were divided
+      - video_id: "-X3EWPhweE8"
+        title: "[40] Changing the Qiblah"
+        url: https://www.youtube.com/watch?v=-X3EWPhweE8
+        description: |-
+          How and why the qiblah was changed from Jersalem to the Kaaba:
+          - The Jewish tribes had been mocking Muslims for worshipping towards Jerusalem
+          - Quranic verses in Surah Baqarah explain why the Qiblah was changed
+          - Quran's criticism of the people who had enmity in their hearts against Muslims.
+      - video_id: 7uJvnpFZu0s
+        title: "[41] Expulsion of Banu Qaynuqa'"
+        url: https://www.youtube.com/watch?v=7uJvnpFZu0s
+        description: While most Muslima and Jewish tribes in Medina were agriculture based, the Jewish tribe of Banu Qaynuqa consisted mainly of craftsmen and blacksmiths, making them highly militarized.  The tax-free marketplace, along with the Muslim's conflict with the Meccans (one of Banu Qaynuqa's main customer base) threatened Banu Qaynuqa's financial interests.
+      - video_id: oNR6pPMAOrk
+        title: "[42] Precursors to Uhud'"
+        url: https://www.youtube.com/watch?v=oNR6pPMAOrk
+        description: |-
+          The events that occurred after the Battle of Badr, which led to the Battle of Uhud:
+          - The Expedition of Qarqarat Al-Kudr, where nomadic tribes started hostilities against the Muslims
+          - The Expedition of Sawiq, where Abu Sufyan led an assault against Medina
+          - The Qaradah Raid, where the Muslims raided a Meccan caravan
+          - The death of Uthman ibn Madh'un, one of the highest companions
+          - The death of Ruqayyah
+          - The assassination of Ka'b ibn Ashraf, a member of the Jewish tribe of Banu Nadhir, for treason (inciting Meccans to war against the Muslims)
+      - video_id: Tl87UnuBTw4
+        title: "[43] Preparing for the Battle of Uhud'"
+        url: https://www.youtube.com/watch?v=Tl87UnuBTw4
+        description: |-
+          Both sides prepare for the Battle of Uhud soon after Imam Hasan's birth:
+          - The battle was instigated by the Meccan's desire for revenge, the insult they felt from Islam, and the economic strain they had landed under
+          - Abu Sufyan's attempts at raising an army
+          - Hind's support of the army
+          - Prophet Muhammad's investigation when an undercover Muslim informs him of Abu Sufyan's army
+          - How Prophet Muhammad held his war council and respected his follower's wishes
+      - video_id: 2mZw4Q4mQqk
+        title: "[44] The Battle of Uhud'"
+        url: https://www.youtube.com/watch?v=2mZw4Q4mQqk
+        description: |-
+          - The Muslims marched towards the invaders with an army of 1000 men. 
+          - Munafiqs revealed: Abdullah ibn Ubayy deserted the army and left with 300 of the men, the munafiqs.
+          - Battle tactics used by Prophet Muhammad
+          - Fortications abandoned: The prophet gave the archerers unambiguous instructions to maintain a defensive position, yet they were ignored to try and obtain some spoils of war, giving the enemy a critical advantage
+      - video_id: lQXTzbW0QaM
+        title: "[45] Uhud: The First Skirmish'"
+        url: https://www.youtube.com/watch?v=lQXTzbW0QaM
+        description: With archers defending their backs, Ali ibn Abi Talib starts the skirmish with one on one battles, defeating nine opponents in a row.
+      - video_id: 02wW7yvrbbs
+        title: "[46] Uhud: Victory to Defeat"
+        url: https://www.youtube.com/watch?v=02wW7yvrbbs
+        description: As the Quraysh fled, the archers watching the army's back rushed to gather the spoils of war.
+      - video_id: dDjeZ57V3VM
+        title: "[47] Uhud: The Aftermath"
+        url: https://www.youtube.com/watch?v=dDjeZ57V3VM
+        description: |-
+          After the Battle of Uhud:
+          - Quraysh mutilate the bodies of Muslims
+          - Prophet Muhammad sends a reconnissance mission to see if the Quraysh will invade Medina or return to Mecca
+          - Various verses of the Quran are revealed to console the Muslims and instruct them on how to recover from the losses
+          - The Meccans decide to come back to finish off the Muslims, but their army is scared away
+          - Nomadic tribes, emboldened by the Muslim's defeat at Uhud, try to raid the Muslims
+      - video_id: 1NrT1ojUbJE
+        title: "[48] Banishment of Banu Nadhir"
+        url: https://www.youtube.com/watch?v=1NrT1ojUbJE
+        description: |-
+          Prophet Muhammad approached the Jewish tribe of Banu Nadhir to help the Muslims make peace between themselves and another Jewish tribe, only to discover at the last minute that Banu Nadhir was planning to assassinate him.
+          Why? The Banu Nadir couldn't accept a gentile as the final messenger of God. They considered it degrading to be subservient to a non-Jew.
+          Faced with this treachery, Prophet Muhammad commanded them to take their belongings and leave Medina in ten days.
+          The Banu Nadhir initially refuse, preparing for war, but surrender once the Muslims besieged their fortress.  Despite their willingness to fight the Prophet still allowed the tribe to depart, but orders them to leave their weapons behind this time. Banu Nadhir reloate to the Fortress of Khaybar
+          Surah Al Hashr (#59) verses 1-16 describe this encounter.
+      - video_id: FPm9rojYaHQ
+        title: "[49] Prohibiting Alcohol"
+        url: https://www.youtube.com/watch?v=FPm9rojYaHQ
+        description: |-
+          This lecture covers:
+          - The gradual prohibition of Alcohol
+          - Passing of Fatima bint Asad (Imam Ali ibn Abu Talib's mother)
+          - Birth of Imam Husayn
+          - Prophet Muhammad's Marriage to Umm Salamah
+      - video_id: jK6rRnJFLQQ
+        title: "[50] The Prophet's Wives"
+        url: https://www.youtube.com/watch?v=jK6rRnJFLQQ
+        description: At the end of the battle of Badr, Abu Sufyan had challenged the Muslims to a rematch a year later. This rematch was known as the Second Battle of Badr, and after seeing how much stronger the Muslims had gotten the Meccans were demoralized and decided to march back to Mecca. And so no battle never actually took place.
+      - video_id: WtYqU661YSs
+        title: "[51] Aisha bint Abu Bakr"
+        url: https://www.youtube.com/watch?v=WtYqU661YSs
+        description: Comparing the Shia and Sunni views on Aisha, the daughter of Abu Bakr and third wife of Prophet Muhammad. Sheikh Azhar also explains why the two sects may have such divergent views of her.
+      - video_id: nQLj16n0-p4
+        title: "[52] Hadiths on Aisha"
+        url: https://www.youtube.com/watch?v=nQLj16n0-p4
+        description: Continuing the comparison of Shia and Sunni views on Aisha bint Abu Bakr, Sheikh Azhar compares Shia and Sunni perspectives on hadiths that cause each sect to have their varying opinions on Aisha.
+      - video_id: oUEGYtgQxOs
+        title: "[53] Who are the Ahlul Bayt?"
+        url: https://www.youtube.com/watch?v=oUEGYtgQxOs
+        description: Who does the Quran refer to when it says Ahlul Bayt? Sheikh Azhar Nasser compares Sunni and Shia viewpoints based on hadit from Sunni sources.
+      - video_id: m3cSoTy0ZlU
+        title: "[54] Identifying the Ahlul Bayt"
+        url: https://www.youtube.com/watch?v=m3cSoTy0ZlU
+        description: Continuing the identification of who is meant by the holy Ahl al-Bayt, Sheikh Azhar Nasser uses hadiths from Sunni sources that are accepted by both Shias and Sunnis to compare Shia and Sunni viewpoints.
+      - video_id: M4J8QU_piqg
+        title: "[55] Sunni Views on The Verse of Purification"
+        url: https://www.youtube.com/watch?v=M4J8QU_piqg
+        description: Sheikh Azhar Nasser explores Sunni counter arguments to the Shia claim that the Verse of Purification (Quran 33:33)
+      - video_id: H9nlv_zeIk4
+        title: "[56] Arguments against the Shia View"
+        url: https://www.youtube.com/watch?v=H9nlv_zeIk4
+        description: Sheikh Azhar Nasser explores additional Sunni counter arguments to the Shia claim that the Verse of Purification (Quran 33:33)
+      - video_id: yAlQEbGoO8U
+        title: "[57] Battle of Khandaq: Allied Enemy Forces - Pt 1"
+        url: https://www.youtube.com/watch?v=yAlQEbGoO8U
+        description: |-
+          All the Muslim's enemies band together in a final attempt to defeat them.
+          In the year 5 AH, the two banished Jewish tribes ally with the Meccans to  mobilizing the masses for the ultimate battle against the Muslims, in what  would later be known as the Battle of the Azhab, aka Battle of Khandaq.
+          The Quraysh had been humbled by their constant failure to wipe out the Muslims, and now that Muslims were blocking their trade routs the Quraysh were feeling the pain  in their wallets. Abu Sufyan, receptive to the invitation by the Jewish tribes,  rallies the Meccans and other Pagan tribes to raise the largest army the Arab  peninsula had ever seen so far and they begin marching against Medina.
+          The Muslims in Mecca learn of this, and with Salman Al-Farsi's advice, begin digging a tranch along the city's border.
+          The banished Jews reach out to the one Jewish tribe still remaining in Mecca and  convince them to also break their truce with the Muslims (now that a huge army  is coming towards the city). The tribe openly reveals that they'll break their covenant, and the Muslims realize they have to guard against enemies both  outside and inside Medina.
+      - video_id: pINIJqCUd_8
+        title: "[58] Khandaq: Digging the Trench - Pt 2"
+        url: https://www.youtube.com/watch?v=pINIJqCUd_8
+        description: |-
+          Prophet Muhammad led by example, digging the trench harder than anyone else. When Fatima cooked some bread and brought it to him, she learned that it was the first thing the prophet had eaten in three days.
+          During the digging, Imam Ali also dug relentlessly and the Prophet praised him saying "May my father be ransomed for the one who digs", highlights Imam Ali's high position in his the eyes. Prophet Muhammad never said this about any other companion.
+          When some companions uncovered a large rock that no one could move, Prophet Muhammad hit it with three miraculous strikes, shattering it.
+          At the end, Jabir ibn Abdullah al Ansari invited Prophet Muhammad to dinner. The prophet extended the invitation to the rest of the exhausted companions. Jabir worried the food would run short, but when the Prophet  arrived at Jabir's home he blessed the food and there ended up being enough to feed every guest.
+      - video_id: VmsL_Ex8pxg
+        title: "[59] Khandaq: Under Seige - Pt 3"
+        url: https://www.youtube.com/watch?v=VmsL_Ex8pxg
+        description: |-
+          The Qurayshi army arrive in Medina and are stumped by the trench, and persuade the  Jewish tribe of Banu Quraydha in Medina and convince them to betray their oath of neutrality
+          The Muslims stand vigilant day and night to defend the trench, even missing their obligatory prayers.
+          Surah 33, Al Ahzaab captures the tension, covering the hypocrites who exposed themselves when they saw the pagan army, and the believers who saw the army as confirmation of what Prophet Muhammad had said to them.
+          Amr ibn al-Wadd, a feared warrior, crosses over the trench and calls for one on one combat.  Imam Ali ibn Talib is the only one who's willing to answer and defeats him in combat.
+          Lessons: - Do not broadcast and sensationalize evil, even if it is true, unless there's a benefit in making it public - Trust Allah and know that there is something positive in every difficulty and hardship
+      - video_id: IL9k-WuTfFE
+        title: "[60] Khandaq: Enemies Demoralized - Pt 4"
+        url: https://www.youtube.com/watch?v=IL9k-WuTfFE
+        description: |-
+          Multiple factors came together to demoralize the Qurayshi coalition and got them to retreat, ending the battle:
+          - Imam Ali's victory over Amr ibn al-Wadd - Shortage of food and fodder. They had prepared for quick battle, not a month-long seige - A violent storm that trashed the Qurayshi camp - Distrust sown between the kuffar and the jews by a secret convert - Some Arabs deciding they'd rather be ruled by Arab than by Jews, even of those Arabs are Muslims
+      - video_id: 1z8FvpXBhtw
+        title: "[61] Khandaq: Seige of Bani Qurayzah - Pt 5"
+        url: https://www.youtube.com/watch?v=1z8FvpXBhtw
+        description: |-
+          After the enemy coalition gave up and retreated from Medina, the Muslims had to deal with the Banu Qurayzah's treachery during the seige. 
+          This lecture covers:
+          - Events during the three weeks the Muslims beseiged Bani Qurayzah
+          - Options Bani Qurayzah considered in response
+          - Their attemps to find allies to support them during their surrender, who would be lenient despite their deadly betrayal
+      - video_id: NBeT7uNIv_s
+        title: "[62] Khandaq: Bani Qurayzah's Punishment - Pt 6"
+        url: https://www.youtube.com/watch?v=NBeT7uNIv_s
+        description: |-
+          After Bani Qurayzah surrendered, the punishment for their betrayal had to be decided.
+          This lecture covers:
+          - The penalty set by Bani Qurayzah's pre-Islamic ally, Sa'd ibn Mu'adh, and Prophet Muhammad's reaction to it
+          - Why the punishment was so harsh
+          - How even Bani Qurayzah's tribal custom at the time was to treat treachery with a similar punishment
+          - Rebutting claims that the punishment was driven by anti-semitism
+      - video_id: "-xWV9lPelWs"
+        title: "[63] Sa'd's Burial & Marrying Zaynab bint Jahash"
+        url: https://www.youtube.com/watch?v=-xWV9lPelWs
+        description: |-
+          Sa'd was a very high ranking companion and a shaheed.  Prophet Muhammad took much more care during his burial than he normally would,  yet he still chided someone who said that he would go straight to heaven.
+          Lesson: If you have bad akhlaq, even the prophet cannot help you against the consequences 
+          Later, Prophet Muhammad proposed Zaynab bint Jahash marry his adopted son  and ex-slave Zayd ibn Haritha. When the couple was unable to get along and got a divorce, the Prophet married Zaynab instead. 
+          This broke multiple societal taboos: 
+          1) Making marriage between the upper class and lower class seem acceptable and
+          2) Showing that the rules between father/son relations do not apply to adopted sons.
+      - video_id: pOFFolfr8a8
+        title: "[64] Surah Munafiqun Revealed - Bani Mustaliq"
+        url: https://www.youtube.com/watch?v=pOFFolfr8a8
+        description: The tribe of Bani Mustaliq were planning to launch a surprise  attack against the Muslims, and rumor of it reached Prophet Muhammad. He sent a companion named Buraydah ibn al-Husayb to investigate. The rumor was confirmed.
+      - video_id: JXkknql5HqY
+        title: "[65] Treaty of Hudaybiyyah"
+        url: https://www.youtube.com/watch?v=JXkknql5HqY
+        description: |-
+          Prophet Muhammad saw a dream of the Muslims entering the Ka'bah to worship, and he  instructs his followers to begin preparations to go to Mecca. They would go in  peace, without arms.
+          The call to go for this pilgrimage turns into an opportunity to expose more of the Munafiqeen as they make excuses to avoid the seemingly dangerous journey.
+          When the Quraysh get word of the Muslims arriving, they panic, fearing that allowing their enemies into the city would make the Meccans appear weak. While they  negotiate with the Muslims, the friendly local tribe of Khuza'ah helps the Muslims settle in Hudaybiyyah and even advocates for them to teh Quraysh, reminding them of their oath to allow all pilgrims to the holy Kaba
+      - video_id: BaDUZ8PRumQ
+        title: "[66] Hudaybiyya: The Prophet's Emissaries"
+        url: https://www.youtube.com/watch?v=BaDUZ8PRumQ
+        description: |-
+          While camped outside Mecca at Hudaybiyya, the Prophet Muhammad sends an emissary into the  city. The Quraysh kill his camel, and he's barely allowed to leave.
+          The Prophet then tries to send Umar ibn Al-Khattab, but he refuses out of fear.  Uthman, who had strong tribal ties with people in the city, is sent instead. However, he's  prevented from leaving for three days, and Muslims fear the worst
+          Given the shakiness of the Muslims, the Prophet is inspired to renew their pledge to him in The Pledge of Ridhwan, and many verse of the Quran are revealed in praise of those who would stick with that pledge
+      - video_id: rqh2rS-Y4cQ
+        title: "[67] Hudaybiyya: Brink of Mutiny"
+        url: https://www.youtube.com/watch?v=rqh2rS-Y4cQ
+        description: |-
+          The Quraysh sent Suhayl ibn Amr to negotiate the Treaty of Hudaybiyya with Prophet Muhammad. Suhayl had a vested interest in the outcome since two of his sons had converted to Islam, one of whom he was keeping captive.
+          The Muslim masses were surprised by the treaty though, which they saw as an insult. Umar ibn Al-Khattab was particularly outraged, later saying that on that day he "doubted the Prophet's prophethood like [he] had never doubted it before"
+          While on the surface the treaty looked like a setback, it set the stage for the Muslims' eventual victory over Quraysh.
+      - video_id: ysbzCY4_cdc
+        title: "[68] The Secret Benefits of Hudaybiyya"
+        url: https://www.youtube.com/watch?v=ysbzCY4_cdc
+        description: |-
+          The many of the Muslims had seen the Treaty of Hudaybiyya as a humiliating  loss, yet Prophet Muhammad knew the treaty paved the way for their ultimate success.
+          This lecture discusses the various ways this treaty helped the Muslims, along with  how Allah sent Surah Al-Fath right afterwards to bolden the Muslims and help them understand the victory which had just been won.
+      - video_id: FqptIDOW2fU
+        title: "[69] Dawah to Surrounding Leaders"
+        url: https://www.youtube.com/watch?v=FqptIDOW2fU
+        description: "With the repreieve provided by the Treaty of Hudaybiyya, Prophet Muhammad can focus on spreading Islam by doing dawah to surrounding leaders. This lecture covers encounters with two prominent leaders:"
+      - video_id: hDuHQa1oDOs
+        title: "[70] Letters to the Persians and Coptics"
+        url: https://www.youtube.com/watch?v=hDuHQa1oDOs
+        description: |-
+          Prophet Muhammad continues his outreach to foreign leaders, sending messengrs to the Persian emperor Khosrow II and the Coptic ruler Muqawqis of Alexandria.
+          The outreach teaches us:
+          - Islam was always meant to be globalized, not just for the Arabs. We need to also think deeply about how to universalize the messaging
+          - The way people respond to the Prophet had an impact on their dunya and akhira
+          - The prophet addresses world leaders with their respective titles. This is part of the etiquette of dialogue.
+          - Even when people are tyranical rulers, it doesn't give us the right to be abusive (especially when we're unprovoked). Even Musa was instructed to speak gently to Feron
+          - Communicate using simple language and get to the point. The letters were short and succinct.
+          - Customize your communication to cater to your audience
+      - video_id: gBqMqgP0ERk
+        title: "[71] Battle of Khaybar - Attempting Diplomacy"
+        url: https://www.youtube.com/watch?v=gBqMqgP0ERk
+        description: |-
+          The fort of Khaybar was manned by Jewish tribes that had previously reacted treasonously against the Muslims and had been exiled from Medina in turn.
+          They had already attacked the Muslims once, by participating in the Battle of Khandak, and Prophet Muhammad received intel that those Jewish tribes were again planning to ally with another pagan tribes to attack Medina.
+          The Prophet again attempted a diplomatic outreach to the tribes in Khaybar, but it fell on deaf ears. Realizing that the Jews at Khaybar were determined to march against Mecca yet again, Prophet Muhammad prepared to strike against them first.
+      - video_id: vkLiVO6T2Vc
+        title: "[72] Khayber - Miracles and Conquest"
+        url: https://www.youtube.com/watch?v=vkLiVO6T2Vc
+        description: The Muslims marched to the Fort of Khaybar, attack and defeat it's treacherous occupants.
+      - video_id: ddKpkuawxHs
+        title: "[73] Khaybar - Victory, Khums & Marrying Safiyyah"
+        url: https://www.youtube.com/watch?v=ddKpkuawxHs
+        description: The victory at Khaybar changed the lives of the Muslim community and became a source of financial strength for them.
+      - video_id: dUXztsqZ25w
+        title: "[74] Fadak - Granted and Usurped"
+        url: https://www.youtube.com/watch?v=dUXztsqZ25w
+        description: Prophet Muhammad had given the garden of Fadak to his daughter Fatima, but after his passing it snatched away from her by Abu Bakr and Umar.
+      - video_id: AdRc7uHHodo
+        title: "[75] Umra al-Qadha"
+        url: https://www.youtube.com/watch?v=AdRc7uHHodo
+        description: Prophet Muhammad led the Muslims on a second attempt at Umra, thet qazaa for the last one which they couldn't complete.
+      - video_id: foTI7fQ3ks8
+        title: "[76] The Battle of Mu'tah - Prelude"
+        url: https://www.youtube.com/watch?v=foTI7fQ3ks8
+        description: The Battle of Mu'tah was triggered when a messenger Prophet Muhammad sent to Ghassani Shurahbil was murdered. This was a declaration of war.
+      - video_id: uU0X1QqHad0
+        title: "[77] Fighting the Roman Army"
+        url: https://www.youtube.com/watch?v=uU0X1QqHad0
+        description: The Roman army, with 10,000 soliders, outnumbered the Muslims 3:1 at the Battle of Mutah. Some of the Muslims feared the large army and wanted to retreat, but the senior companions bolstered their courage.
+      - video_id: EMvH--xJPjg
+        title: "[78] Campaign of Dhat Al-Salasil"
+        url: https://www.youtube.com/watch?v=EMvH--xJPjg
+        description: The Campaign of Dhat Al-Salasil occurred soon after "defeat" at the Battle of Mu'tah, when various Ghassanid affiliated tribes sensed an opportunity to invade Medina. They thought the Muslims would be weak and demoralized.
+      - video_id: H2eC8R4WoTQ
+        title: "[79] Conquest of Mecca [1] - The Broken Treaty"
+        url: https://www.youtube.com/watch?v=H2eC8R4WoTQ
+        description: The Treaty of Hudaybiyya had included a vow of there being no fighting between the Quraysh and the Muslims. However, when the tribe of Banu Bakr asked the leaders of Quraysh for help in a raid against their long time foe Banu Khuza'ah, a tribe with many Muslims and who were longtime allies of Prophet Muhammad, the Quraysh joined in.
+      - video_id: CBYrR05Xgug
+        title: "[80] Conquest of Mecca [2] - Tactics and Betrayal"
+        url: https://www.youtube.com/watch?v=CBYrR05Xgug
+        description: Prophet Muhammad kept the attack on Mecca a closely guarded secret. However Hatib ibn Abi Balta'ah sent a letter to the Quraysh warning them of the attack. The Prophet was informed of this by revelation and he sent Ali and Zubayr to retrieve it.
+      - video_id: oUkFpvzwUA4
+        title: "[81] Conquest of Mecca [3] - Mecca Surrenders"
+        url: https://www.youtube.com/watch?v=oUkFpvzwUA4
+        description: Prophet Muhammad had promised safety to any Meccan who either remined in their own home during the invasion or went to Abu Sufyan's home.
+      - video_id: A_2pklaBlHA
+        title: "[82] Conquest of Mecca [4] - Amnesty Granted"
+        url: https://www.youtube.com/watch?v=A_2pklaBlHA
+        description: Prophet Muhammad destroys all the idols in the Kaaba with Imam Ali's help and washes the images that had been drawn inside.
+      - video_id: 7QDkg3-SzFg
+        title: "[83] Converting in Droves"
+        url: https://www.youtube.com/watch?v=7QDkg3-SzFg
+        description: After the conquest of Mecca, hundreds of thousands of Arabs came to the prophet to convert and pledge their allegiance. This lecture covers why they joined now and reflects the verses of Surah An-Nasr which predicted this.
+      - video_id: GpYmvk1JQSI
+        title: "[84] The Battle of Hunain"
+        url: https://www.youtube.com/watch?v=GpYmvk1JQSI
+        description: Banu Thaqif had been long standing rivals of the Quraysh. They saw the Quraysh's defeated as an opportunity to attack and seize control of Mecca for themselves.
+      - video_id: bsgyDegHRDY
+        title: "[85] The Siege of Ta'if"
+        url: https://www.youtube.com/watch?v=bsgyDegHRDY
+        description: After victory against Banu Thaqif at Hunayn, Prophet Muhammad marched his army to Ta'if, where Banu Thaqif had retreated to and barricated themselves inside with enough food and water to last them for a year.
+      - video_id: S9Ehi7GsQf0
+        title: "[86] Tabuk Part 1 - Rome Conquers Persia"
+        url: https://www.youtube.com/watch?v=S9Ehi7GsQf0
+        description: "This lecture covers the prelude to the Battle of Tabuk. Key topics include:"
+      - video_id: P4wgpyhlgVQ
+        title: "[87] Imam Ali - As Harun was to Musa | Tabuk Pt 2"
+        url: https://www.youtube.com/watch?v=P4wgpyhlgVQ
+        description: When leaving for Tabuk, the Prophet (s) appointed Imam Ali (as) as his deputy in Madinah to protect against any uprising led by the Munafiqeen. That day he said to Imam Ali "You are to me as Harun was to Musa, except that there is no prophet after me."
+      - video_id: ll8DOnchjAI
+        title: "[88] Assassination plot at the Mountain Pass"
+        url: https://www.youtube.com/watch?v=ll8DOnchjAI
+        description: Allah had warned Prophet Muhammad in the Quran (64:4) that his companions contained hypocrites so skilled at deceit that the prophet himself was pleased by their speech and appearance. Only revelation could expose them.
+      - video_id: "-xm74nyYNAo"
+        title: "[89] Masjid ad Zarar destroyed"
+        url: https://www.youtube.com/watch?v=-xm74nyYNAo
+        description: Masjid ad Zarar, the Mosque of Harm, was a mosque built by the hypocrites of Madinah to coverty oppose the Prophet Muhammad (pbuh). They completed it just before Prophet Muhammad departed on the Expedition of Tabuk.
+      - video_id: R-q9VNc-wo0
+        title: "[90] Year of Delegations"
+        url: https://www.youtube.com/watch?v=R-q9VNc-wo0
+        description: The Expedition of Tabuk demonstrated to Arabs the strength of the Muslims. Over the next year, the various tribes responded by sending the Prophet Muhammad (pbuh) delegations to accept Islam and pledge their allegiance. Prophet Muhammmad welcomed them & forgave past conflicts.
+      - video_id: Lj9d6jaAWv0
+        title: "[91] Event of Mubahila"
+        url: https://www.youtube.com/watch?v=Lj9d6jaAWv0
+        description: Among the delegations that came to Prophet Muhammad was on e from the Christians of Najran after their chief chief bishop and his people were invited to Islam. They came to negotiate a truce with the Prophet.
+      - video_id: r7WikQByyik
+        title: "[92] Disavowing the Polythiests"
+        url: https://www.youtube.com/watch?v=r7WikQByyik
+        description: Prophet Muhammad wanted to eradicate polythiesm and all practices associated with it, such as doing tawaaf around the kaaba naked.
+      - video_id: dLRpVzn2k1M
+        title: "[93] Tax Collection Struggles"
+        url: https://www.youtube.com/watch?v=dLRpVzn2k1M
+        description: After the Conquest of Makkah, the prophet dispatched tax collectors to different Bedouin tribes, aiming to consolidate an Islamic state and establish a system of governance that would ensure stability, support the needed, and fund state activities.
+      - video_id: ZfXL7MqjgOU
+        title: "[94] Missions in Yemen"
+        url: https://www.youtube.com/watch?v=ZfXL7MqjgOU
+        description: Prophet Muhammad sent a mission to Yemen to invite them to Islam. The first mission was led by Khalid ibn Al-Walid, who was a harsh man who had fought against the Muslims in the Battle of Uhud, but he had an aristrocratic background and by making him feel valued Prophet Muhammad had hoped to turn him into a productive member of the Muslim community.
+      - video_id: 7NoMKBn89Pc
+        title: "[95] The Prophet's Only Hajj"
+        url: https://www.youtube.com/watch?v=7NoMKBn89Pc
+        description: "In the last months of the prophet's life, Gabriel descended to the prophet conveying a message from Allah: \"There remain two obligations that you must convey to your people: the obligation of Hajj, and the obligation of Wilayah (the guardianship and succession) after you. For indeed, I have never left My earth without a proof, and I will never leave it without one.\"  The Prophet had often spoken about Imam Ali's unique rank, but hadn't formalized his succession in front of a large audience."
+      - video_id: UJKWYp0lr2g
+        title: "[96] The Event of Ghadir Khumm"
+        url: https://www.youtube.com/watch?v=UJKWYp0lr2g
+        description: Prophet Muhammad was worried about people rebelling against him if he announced Imam Ali as his successor, so he delayed following the message to formalize his succesorship as long as he was allowed to.
+      - video_id: S9hESB_xSZA
+        title: "[97] The Aftermath of Ghadeer Khumm"
+        url: https://www.youtube.com/watch?v=S9hESB_xSZA
+        description: After Prophet Muhammad declared Ali ibn Abi Talib's successorship, the angel Gabriel descended with an extension of the verse Quran 5:3, adding "today I have perfected your religion for you, and I have completed my blessing upon you, and I have approved Islam as your religion", showing that there's a version of Islam that's perfected and a version that's incomplete.
+      - video_id: gRZO0Ubd08o
+        title: "[98] False Prophets"
+        url: https://www.youtube.com/watch?v=gRZO0Ubd08o
+        description: With the success of Islam, now multiple people started popping up and claiming to be Prophets.
+      - video_id: CQhfMdDYZok
+        title: "[99] Disobeying the Prophet"
+        url: https://www.youtube.com/watch?v=CQhfMdDYZok
+        description: The Prophet's death was impending, and he had commanded all his companions to join Usama ibn Zayd's army to go fight the Romans.  Usama was a young man, and many companions chaffed at being put under the leadership of something that age. The prophet, while sick, had to rebuke them to send them back to the army.
+      - video_id: yBxvKOHjZcM
+        title: "[100] Denied Pen and Paper, Calamity of Thursday"
+        url: https://www.youtube.com/watch?v=yBxvKOHjZcM
+        description: In these last few days, many of the companions explicitly disregarded the prophet's instructions in order to secure political power after his demise. The prophet had attempted to prevent their schemes by instructing many of the senior companions to leave Medina with Usama ibn Zayd, so that Imam Ali could assume leadership without interference, but many delayed and made excuses.
+      - video_id: ojs3bdeq37o
+        title: "[101] Prophet Offering Retribution"
+        url: https://www.youtube.com/watch?v=ojs3bdeq37o
+        description: In his last days, knowing death was imminent, Prophet Muhammad called his uncle Abbas and Imam Ali. He asked his uncle to carry out his will and settle his affairs after the prophet's death. When the uncle demured, the prophet asked Imam Ali, who accepted. The Prophet also gave Imam Ali his sword, battle gear, and ring.
+      - video_id: U8kodjjLYwY
+        title: "[102] Was Prophet Muhammad Poisoned?"
+        url: https://www.youtube.com/watch?v=U8kodjjLYwY
+        description: Everyone knows the prophet died of illness, and many say it was due to poison. Some say it was poison he consumed during te  Battle of Khaybar three years earlier, but there are some serious doubts about that theory.
+      - video_id: 6_yA6nDAiCE
+        title: "[103] Death of the Prophet"
+        url: https://www.youtube.com/watch?v=6_yA6nDAiCE
+        description: This lecture covers various events that occurred on the day of the prophet's passing and the day after, up until his burial.
+  - id: surah-tawbah
+    title: Surah Tawbah
+    surah_number: 9
+    description: Tafsir of Surah At-Tawbah (The Repentance), exploring relations between Muslims and non-believers, the importance of sincere repentance, and lessons from the Battle of Tabuk.
+    speaker: Sheikh Azhar Nasser
+    playlist_id: PLpkB0iwLgfTZTu0frbGfAuvQ7AeTdRBI-
+    playlist_url: https://www.youtube.com/playlist?list=PLpkB0iwLgfTZTu0frbGfAuvQ7AeTdRBI-
+    thumbnail_video_id: BRzBkfFtsTA
+    episodes:
+      - video_id: BRzBkfFtsTA
+        title: "[1] Betrayed by Kuffar"
+        url: https://www.youtube.com/watch?v=BRzBkfFtsTA
+        description: This lecture covers the background context of Surah Tawbah and verses 1-3
+      - video_id: jBHHCVm0B3g
+        title: "[2] Deceitful Enemies"
+        url: https://www.youtube.com/watch?v=jBHHCVm0B3g
+        description: This lecture covers verses 3-6 of Surah Tawbah. It explains the verses that are often quoted out of context saying "and kill the disbelievers where ever you find them"
+      - video_id: I-et6s8VajM
+        title: "[3] Rules of Engagement"
+        url: https://www.youtube.com/watch?v=I-et6s8VajM
+        description: This lecture covers verses 7-11 of Surah Tawbah.
+      - video_id: 0Hlf1XIi5_g
+        title: "[4] Loving God's Enemies"
+        url: https://www.youtube.com/watch?v=0Hlf1XIi5_g
+        description: This lecture covers verses 12-15 of Surah Tawbah.
+      - video_id: Yr2ACwUiHK4
+        title: "[5] Everyone Faces Trials"
+        url: https://www.youtube.com/watch?v=Yr2ACwUiHK4
+        description: This lecture covers verses 16-18 of Surah Tawbah.
+      - video_id: 572F1B1f1S0
+        title: "[6] The Arrogant Muslims"
+        url: https://www.youtube.com/watch?v=572F1B1f1S0
+        description: This lecture covers verses 19-22 of Surah Tawbah.
+      - video_id: AdohscRtp1o
+        title: "[7a] Does the Quran Forbid Befriending Non Muslims?"
+        url: https://www.youtube.com/watch?v=AdohscRtp1o
+        description: This lecture covers verses 23-24 of Surah Tawbah from the Holy Quran
+      - video_id: oooRabRILrQ
+        title: "[7b] The Battle of Hunayn"
+        url: https://www.youtube.com/watch?v=oooRabRILrQ
+        description: This lecture covers verses 25-26 of Surah Tawbah from the Holy Quran
+      - video_id: PHgsamwMy3o
+        title: "[8] Establishing Islamic Governance & Jizya"
+        url: https://www.youtube.com/watch?v=PHgsamwMy3o
+        description: This lecture covers verses 27-29 of Surah Tawbah from the Holy Quran
+      - video_id: KCKY5NnK_fk
+        title: "[9] How Religions Become Corrupted"
+        url: https://www.youtube.com/watch?v=KCKY5NnK_fk
+        description: This lecture covers verses 30-32 of Surah Tawbah from the Holy Quran
+      - video_id: HUcv6ezb_-Y
+        title: "[10] Corrupt Clergy & Hoarding Wealth"
+        url: https://www.youtube.com/watch?v=HUcv6ezb_-Y
+        description: This lecture covers verses 33-35 of Surah Tawbah from the Holy Quran
+      - video_id: gU7KpQGr_Uo
+        title: "[11a] What makes the Sacred Months Important?"
+        url: https://www.youtube.com/watch?v=gU7KpQGr_Uo
+        description: This lecture covers verses 36-37 of Surah Tawbah from the Holy Quran
+      - video_id: FSddj1fDg-k
+        title: "[11b] Battle of Tabuk: Why did some Sahaba refuse to fight?"
+        url: https://www.youtube.com/watch?v=FSddj1fDg-k
+        description: Tafsir of Surah Tawbah verses 38-39, from the Holy Quran
+      - video_id: vZFh-46LAlw
+        title: "[12a] Abu Bakr in the Quran"
+        url: https://www.youtube.com/watch?v=vZFh-46LAlw
+        description: Verse 40 of Surah Tawbah references the time Abu Bakr and the Prophet Muhammad migrated from Mecca to Medina.  What does Allah tell us about Abu Bakr through that verse?
+      - video_id: EGu_OnnK5N8
+        title: "[12b] Battle of Tabuk: Which Sahaba does the Quran call Liars?"
+        url: https://www.youtube.com/watch?v=EGu_OnnK5N8
+        description: This lecture covers verses 41-42 of Surah Tawbah from the Holy Quran. It discusses the excuses some sahaba made when they were commanded to go fight in the Battle of Tabuk
+      - video_id: eARslY4HqC4
+        title: "[13] How would Hypocrites sow Dissension?"
+        url: https://www.youtube.com/watch?v=eARslY4HqC4
+        description: This lecture covers verses 43-48 of Surah Tawbah from the Holy Quran
+      - video_id: KIfcHTC6ZTQ
+        title: "[14a] Giving Religious Justifications for Self-Serving Ends"
+        url: https://www.youtube.com/watch?v=KIfcHTC6ZTQ
+        description: Some companions tried to get out of going to war by giving religious sounding excuses. Verse 49 of Surah Tawbah describes their actions.
+      - video_id: U3mAxLWdirA
+        title: "[14b] Distinguishing Believers from Hypocrites"
+        url: https://www.youtube.com/watch?v=U3mAxLWdirA
+        description: The different behaviors of the hypocrites vs believers and three signs of envious people. Verse 50 of Surah Tawbah describes their actions.
+      - video_id: RV_A3WacsfM
+        title: "[14c] How to become Resilient?"
+        url: https://www.youtube.com/watch?v=RV_A3WacsfM
+        description: Advice for how to stay strong when hardships arise as you work in the way of God.
+      - video_id: VRlObbjq6q8
+        title: "[14d] Good Deeds without Sincerity?"
+        url: https://www.youtube.com/watch?v=VRlObbjq6q8
+        description: What is their value? What was God's response to those who wanted to be excused from defending the nation but offered to fund the defense instead?
+      - video_id: YeBJWjEwS84
+        title: "[14e] Making Prayer More than just a Habit"
+        url: https://www.youtube.com/watch?v=YeBJWjEwS84
+        description: How do you make prayer more than just a mindless habit?
+      - video_id: X9SBJleAL9U
+        title: "[15a] Does Wealth Lead to Happiness?"
+        url: https://www.youtube.com/watch?v=X9SBJleAL9U
+        description: Verse 55 teaches not to be impressed by people's wealth, and that these objects of desire can turn into sources of misery if one isn't careful
+      - video_id: l90zlS4CkDs
+        title: "[15b] Social Justice in Islam"
+        url: https://www.youtube.com/watch?v=l90zlS4CkDs
+        description: |-
+          Verse 56-60 talk about various aspects of social justice:
+          - Can self-interest bias one's views on justice?
+          - The relation between charity and social justice
+          - Recognizing "well wishers" of your cause who only wish to help themselves
+      - video_id: 9TTWa6bWEvg
+        title: "[16] How did the Hypocrites Hide Themselves?"
+        url: https://www.youtube.com/watch?v=9TTWa6bWEvg
+        description: Verse 61-67 talk about the ways the hypocrites would try to hide among the companions.  The lesson teaches us how we can watch out for these tendencies in ourselves.
+      - video_id: ugo_PW1ayYw
+        title: "[17] History Repeats Itself"
+        url: https://www.youtube.com/watch?v=ugo_PW1ayYw
+        description: Verse 68-72 talk about various lessons of history that the Quran showed were happening again during the time of the Prophet.  Those same events keep repeating even up to the present day.
+      - video_id: lqLK38jzgqI
+        title: "[18] What Causes Hypocrisy in the Heart?"
+        url: https://www.youtube.com/watch?v=lqLK38jzgqI
+        description: Verse 73-78 talk about the ways hypocrisy can manifest in a person's heart and the ways Allah instructed the Prophet  Muhammad to respond to the hypocrites in his midst who were undermining his efforts.
+      - video_id: 3_kiF3ACyuo
+        title: "[19] The Effects of Sincerity"
+        url: https://www.youtube.com/watch?v=3_kiF3ACyuo
+        description: Verse 79-85 talk about the impact (or lack there of) of actions done with varying levels of sincerity.  It also explains how the Prophet Muhammad was commanded to respond to the munfaiqs in his midst.
+      - video_id: dGmgyj0OxuE
+        title: "[20a] How do the Hearts get Sealed?"
+        url: https://www.youtube.com/watch?v=dGmgyj0OxuE
+        description: Verse 86 & 87 talk about how certain deeds and beliefs can cause a person's heart to become closed and sealed.  He also discusses what the Quran actually means when it talks about God sealing a person's heart
+      - video_id: jXM98pBu_5Y
+        title: "[20b] Striving when others are Unwilling"
+        url: https://www.youtube.com/watch?v=jXM98pBu_5Y
+        description: Verse 88-93 talk about how the believers who are passionate followers of God.  Sheikh Azhar gives the example of those who would beg for a way to go to the battle field even though they lacked the means to do so.
+      - video_id: UkhjeVT--7Q
+        title: "[21] The Social Boycott"
+        url: https://www.youtube.com/watch?v=UkhjeVT--7Q
+        description: Verse 94-99 discuss how the munafiqs would try to influence other muslims and draws parallels to how the media and politicians try to influence people today.
+      - video_id: 5Oelb6GA92I
+        title: "[22] Taking the Lead in Doing Good"
+        url: https://www.youtube.com/watch?v=5Oelb6GA92I
+        description: Verse 100-105 discuss the importance of hastening to do good, even when others are not doing it (yet) and the rewards of your actions
+      - video_id: jcGO2rbJ_oo
+        title: "[23] Masjid al-Dirar: Wolf in Sheep's Clothing"
+        url: https://www.youtube.com/watch?v=jcGO2rbJ_oo
+        description: Verses 106-111 discuss the story of Masjid al-Dirar, which was created by people secretly trying to attack the Muslim community
+      - video_id: u_kUKFuEr14
+        title: "[24] Qualities of the People of Heaven"
+        url: https://www.youtube.com/watch?v=u_kUKFuEr14
+        description: Verses 112-117 discuss nine qualities of people who go to heaven.
+      - video_id: o204QX5zuyU
+        title: "[25] Improving Morals in Society"
+        url: https://www.youtube.com/watch?v=o204QX5zuyU
+        description: Verses 118-122 discuss a method of amir bil maroof wa nahi anil munkir when people in society start to go against their morals.
+      - video_id: 4Tn33nXPFIY
+        title: "[26a] Prioritizing between Good & Better"
+        url: https://www.youtube.com/watch?v=4Tn33nXPFIY
+        description: Verse 123 emphasizes the importance of prioritization.  Often Muslims want to do a good act when there's an even more impactful act which they should be performing.
+      - video_id: pAhHqcpE9ds
+        title: "[26b] How did the Munafiq spread propaganda?"
+        url: https://www.youtube.com/watch?v=pAhHqcpE9ds
+        description: Verse 124 discusses the tactics the Munafiqeen would use to try to subtly dissuade Muslims from Islam and the dangers of Group Think
+      - video_id: x_0WhePiSEc
+        title: "[26c] What's the Disease of the Heart?"
+        url: https://www.youtube.com/watch?v=x_0WhePiSEc
+        description: Verse 125 talks about the disease of the heart, and Imam Ali describes the spiritual disease this is referring to.
+      - video_id: Qs1dkTgp3NA
+        title: "[26d] The Trials of the Munafiqoon"
+        url: https://www.youtube.com/watch?v=Qs1dkTgp3NA
+        description: Verses 126-127 talk about how the Munafiqeen would keep trying to make Muslims disbelieve in Islam, while pretending to be Muslims themselves.
+      - video_id: lyEbYY-2V4Q
+        title: "[26e] The Prophet's Kindness"
+        url: https://www.youtube.com/watch?v=lyEbYY-2V4Q
+        description: Verses 128-129 discuss how the prophet was extremely kind and polite to everyone
+  - id: surah-al-anbiya
+    title: Surah Al-Anbiya
+    surah_number: 21
+    description: Tafsir of Surah Al-Anbiya (The Prophets), narrating stories of various prophets including Abraham, Moses, David, Solomon, and Jesus, emphasizing the unity of their divine message.
+    speaker: Sheikh Azhar Nasser
+    playlist_id: PLpkB0iwLgfTYRUaUPy_LJlpZvQwRAEwqi
+    playlist_url: https://www.youtube.com/playlist?list=PLpkB0iwLgfTYRUaUPy_LJlpZvQwRAEwqi
+    thumbnail_video_id: eB40wymVBMk
+    episodes:
+      - video_id: eB40wymVBMk
+        title: "[1a] Background and Context"
+        url: https://www.youtube.com/watch?v=eB40wymVBMk
+        description: Sheikh Azhar Nasser introduces us to the background of Surah Al-Anbiya, the context in which it was revealed, and provides and overview of the surah.
+      - video_id: y9Er2LpOEvI
+        title: "[1b] Auditing Your Life"
+        url: https://www.youtube.com/watch?v=y9Er2LpOEvI
+        description: Verse 1 of Surah Al-Anbiya reminds about the day of judgement and how we will be taken to account for our actions
+      - video_id: HbBJKuqM3Mg
+        title: "[2] Neglecting God's Reminders"
+        url: https://www.youtube.com/watch?v=HbBJKuqM3Mg
+        description: Verses 2-4 of Surah Al-Anbiya describe the effects on people when they don't heed the reminders God sends them, and rather mock them instead.  Even Muslims should wonder if they behave in any of these ways.
+      - video_id: heFMWRp26oc
+        title: "[3] Relatable Teachers"
+        url: https://www.youtube.com/watch?v=heFMWRp26oc
+        description: Verses 5-8 of Surah Al-Anbiya describe the need for us to have role models who we find relatable.  This was why Allah sent us prophets who were normal human beings, and they were usually born to the same tribes who they were meant to lead.
+      - video_id: 3zV7NbHuegA
+        title: "[4] Results of Oppression"
+        url: https://www.youtube.com/watch?v=3zV7NbHuegA
+        description: Verses 9-15 of Surah Al-Anbiya describe the effects the actions of the worst oppressors have.
+      - video_id: ADm36OANdo4
+        title: "[5] Why Were We Created?"
+        url: https://www.youtube.com/watch?v=ADm36OANdo4
+      - video_id: 4UJpmIubbaQ
+        title: "[6] The Meanings of 'God' ('Ilah')"
+        url: https://www.youtube.com/watch?v=4UJpmIubbaQ
+        description: Verses 21-24 of Surah Al-Anbiya cover Tawhid and describe what the world would look like if other gods also existed and disprove that idea.  Sheikh Azhar also goes into various aspects of Arabic grammer relevant to these verses.
+      - video_id: aYB_nX1DOGM
+        title: "[7] The Intercessors"
+        url: https://www.youtube.com/watch?v=aYB_nX1DOGM
+        description: Verses 25-29 of Surah Al-Anbiya emphasize various aspects of tawheed and bring up the concept of intercession.  Key ideas are that real belief in Allah drives one to action, and the attributes of those who are able to interceed on behalf of people on the Day of Judgement.
+      - video_id: 0IpcOnDIPv0
+        title: "[8a] Science in the Quran"
+        url: https://www.youtube.com/watch?v=0IpcOnDIPv0
+        description: Verses 30-33 of Surah Al-Anbiya how various aspects of our universe, like the mountains and the atmosphere, are blessings from Allah without which our survival would not be possible. It references natural phenomenon which have only been discovered by science recently.
+      - video_id: 7XExn4QwWHk
+        title: "[8b] You're Tested with Wealth"
+        url: https://www.youtube.com/watch?v=7XExn4QwWHk
+        description: Verses 34-35 of Surah Al-Anbiya describes how both having and not having material blessings in this world is a test for people, and it establishes the inevitiability of death
+      - video_id: fOsLXCR_fks
+        title: "[9] The Darkness of the Soul"
+        url: https://www.youtube.com/watch?v=fOsLXCR_fks
+        description: Verses 36-40 of Surah Al-Anbiya covers the mercy of the prophet, the dismissive rejection by the kuffar, and the effects their rejection has on the rejector's souls
+      - video_id: 9WNeEMIPqPE
+        title: "[10] Pondering God"
+        url: https://www.youtube.com/watch?v=9WNeEMIPqPE
+        description: Verses 41-45 of Surah Al-Anbiya the importance of thinking about God and the Prophet's response to those who mocked him
+      - video_id: TzmJ5at1PC4
+        title: "[11] Weighing Your Deeds"
+        url: https://www.youtube.com/watch?v=TzmJ5at1PC4
+        description: Verses 46-49 of Surah Al-Anbiya the various stages of heaven, and the people of hell realizing that hell is the reality of their own souls instead of a punishment forced upon them.
+      - video_id: GK_RzUjhLW0
+        title: "[12] Prophet Abraham"
+        url: https://www.youtube.com/watch?v=GK_RzUjhLW0
+        description: Verses 50-58 of Surah Al-Anbiya the story of Prophet Abraham and how he tried to show his people the truth
+      - video_id: NNaCd_xNwPM
+        title: "[13] Abraham Thrown into the Fire"
+        url: https://www.youtube.com/watch?v=NNaCd_xNwPM
+        description: Verses 59-70 of Surah Al-Anbiya show how Prophet Abraham worked to expose the false idols his peoplep worshipped, and how God protected him from their wrath
+      - video_id: SVOMYLK0n4o
+        title: "[14] Abraham's Legacy"
+        url: https://www.youtube.com/watch?v=SVOMYLK0n4o
+        description: Verses 71-73 of Surah Al-Anbiya describes what happened after the fire failed to burn Prophet Abraham, and the legacy of his descendants.
+      - video_id: NuBHij9COBY
+        title: "[15] Prophets Lut and Noah"
+        url: https://www.youtube.com/watch?v=NuBHij9COBY
+        description: Verses 74-77 of Surah Al-Anbiya describes the stories of Prophet Lut (Lot) and Nuh (Noah). It covers the struggles the depth of evil their communities had sunk to and their eventual removal to protect the rest of humanity from their influence.
+      - video_id: wbmsUVu8k9A
+        title: "[16] Prophets David and Solomon"
+        url: https://www.youtube.com/watch?v=wbmsUVu8k9A
+        description: Verses 78-82 of Surah Al-Anbiya describes the stories of Prophet Dawood (David) and Suleiman (Solomon). They are examples of prophets who ruled mighty kingdoms with Allah's support and contains examples of their wisdom.
+      - video_id: 4t2GZ1F0_pg
+        title: "[17] A Burden too Large to Bear?"
+        url: https://www.youtube.com/watch?v=4t2GZ1F0_pg
+        description: Verses 83-88 of Surah Al-Anbiya describes the stories of Prophet Ayub (Job) and Prophet Yunus (Jonas). They are examples of prophets who faced extreme hardship and turned to Allah for support.
+      - video_id: R2PhQc4LnY8
+        title: "[18] Zakariya's Duas"
+        url: https://www.youtube.com/watch?v=R2PhQc4LnY8
+        description: Verses 89-90 of Surah Al-Anbiya describes the story of Prophet Zakariya and Lady Maryam. He describes the beauty of dua and the real essence which we should be striving for in our prayers
+      - video_id: iaXXM4qZLlg
+        title: "[19a] Virgin Mary's Status"
+        url: https://www.youtube.com/watch?v=iaXXM4qZLlg
+        description: Verse 91 of Surah Al-Anbiya elaborates on the status of the Virgin Mary (Bibi Maryam).  Sheikh Azhar discusses the Spirit blown into her and how the Quran is establishing her spiritual rank to be equivalent to that of the other prophets mentioned in these verses.
+      - video_id: Qvz7sEB7094
+        title: "[19b] Dividing into Sects"
+        url: https://www.youtube.com/watch?v=Qvz7sEB7094
+        description: Verses 92-94 of Surah Al-Anbiya describes communities of the past breaking into sects and shares advice on how we should be treating each other, with an emphasis on what Shia/Sunni etiquette should be
+      - video_id: JcSBnHX9i2I
+        title: "[19c] Question & Answer Session"
+        url: https://www.youtube.com/watch?v=JcSBnHX9i2I
+        description: "Question Sheikh Azhar answers in the Q&A include:"
+      - video_id: kEHNYHgs9eg
+        title: "[20] Yahjooj & Mahjooj"
+        url: https://www.youtube.com/watch?v=kEHNYHgs9eg
+        description: Verses 95-100 of Surah Al-Anbiya gives the background of Yahjooj and Mahjooj (Gog and Magog) and various interpretations of their return.  Sheikh Azhar then describes the reality of the fire of hell and what causes the flames to burn.
+      - video_id: KieYKwhzIUY
+        title: "[21] Imam Mehdi's Companions"
+        url: https://www.youtube.com/watch?v=KieYKwhzIUY
+        description: Verses 95-100 of Surah Al-Anbiya goes into depth about what heaven really is, the process of the universe being destroyed and recreated before the day of judgement, and the ashaab of Imam Mehdi
+      - video_id: 9C6qR_Ltg_o
+        title: "[22] Inner Peace Through Tawhid"
+        url: https://www.youtube.com/watch?v=9C6qR_Ltg_o
+        description: Verses 106-112 of Surah Al-Anbiya talk about the importance of tawhid and how correctly following it leads to inner peace
+  - id: surah-ar-rum
+    title: Surah Ar-Rum
+    surah_number: 30
+    description: Tafsir of Surah Ar-Rum (The Romans), exploring prophecies about the Roman Empire, signs of Allah in creation, and guidance for spiritual purification.
+    speaker: Sheikh Azhar Nasser
+    playlist_id: PLpkB0iwLgfTaJQIx2eZ-bBcvBPTihydkh
+    playlist_url: https://www.youtube.com/playlist?list=PLpkB0iwLgfTaJQIx2eZ-bBcvBPTihydkh
+    thumbnail_video_id: OLE5Qx_4ZUc
+    episodes:
+      - video_id: OLE5Qx_4ZUc
+        title: "[01] Predicting Roman Conquest"
+        url: https://www.youtube.com/watch?v=OLE5Qx_4ZUc
+        description: Verses 1-6 of Surah Ar-Rum describes a miraculous prediction made by the Quran about the success of the Roman empire when it had just taken a staggering blow from the Persians
+      - video_id: fYQofPq0h2k
+        title: "[02] Introspection"
+        url: https://www.youtube.com/watch?v=fYQofPq0h2k
+        description: Verses 7-10 of Surah Ar-Rum talk about the importance of introspection and pondering over our reality. He ties it in to the lessons we should learn from the current Corona virus pandemic
+      - video_id: 3XrR9mwLHkg
+        title: "[03] Transactions on Qiyamat"
+        url: https://www.youtube.com/watch?v=3XrR9mwLHkg
+        description: Verses 11-15 of Surah Ar-Rum discuss the nature of the resurrection and why people would despair on the Day of Judgement even when they're in the presence of the Most Merciful.
+      - video_id: jd-UEbY0gQI
+        title: "[04] Why Five Prayers?"
+        url: https://www.youtube.com/watch?v=jd-UEbY0gQI
+        description: Verses 16-21 of Surah Ar-Rum discuss various signs of Allah and our remembrance of him.  They describe the times in which He should be remembered, and Sheikh Azhar shares a hadith about why we have five wajib prayers.
+      - video_id: SK_i6h01dtk
+        title: "[05] Soul Departing During Sleep"
+        url: https://www.youtube.com/watch?v=SK_i6h01dtk
+        description: Verses 22-25 of Surah Ar-Rum discuss signs of Allah from the visible world, talking about the creation of the universe, our human bodies, and rain and lightening.
+      - video_id: m6gu6LYCZKU
+        title: "[06] Subduing your Nafs"
+        url: https://www.youtube.com/watch?v=m6gu6LYCZKU
+        description: Verses 26-29 of Surah Ar-Rum talks about those who follow their base desires blindly. Sheikh Azhar Nasser goes on to describe techniques taught by the Imams for how to train one's self to better resist temptation
+      - video_id: at5gLJ4XTjU
+        title: "[07] The Subtle Shirks"
+        url: https://www.youtube.com/watch?v=at5gLJ4XTjU
+        description: Verses 30-36 of Surah Ar-Rum talks about the types of Shirk that even believers are at risk of sucumbing to. These include looking to other entities for success, showing off, and valueing anything over Islam
+      - video_id: ZG3I0VZpxX0
+        title: "[08] Your Rizq"
+        url: https://www.youtube.com/watch?v=ZG3I0VZpxX0
+        description: Verses 37-39 of Surah Ar-Rum talk about the sustenance Allah provides, giving charity, and the proper mindset when giving it
+      - video_id: NzU74ReCqz0
+        title: "[09] Effects of Corruption"
+        url: https://www.youtube.com/watch?v=NzU74ReCqz0
+        description: Verses 40-43 of Surah Ar-Rum talk about fasada and it's consequenses, and how sins affect us and the world around us
+      - video_id: 54B2ibMw4gE
+        title: "[10] Hidden Truths about Wind"
+        url: https://www.youtube.com/watch?v=54B2ibMw4gE
+        description: Verses 44-46 of Surah Ar-Rum talk about how wind is described as both a blessing and a punishment in the Qurah, and the different context in which the two forms are applied
+      - video_id: 8XEU1BD4I7w
+        title: "[11] The Blind, Deaf and Dead"
+        url: https://www.youtube.com/watch?v=8XEU1BD4I7w
+        description: Verses 47-53 of Surah Ar-Rum talk about the spiritual blindness and deaths one may have, and the effects of gaining or loosing Allah's blessings
+      - video_id: J870k6aqe5c
+        title: "[12] Time in Barzakh"
+        url: https://www.youtube.com/watch?v=J870k6aqe5c
+        description: Verses 54-60 of Surah Ar-Rum talk about the passage of time in barzakh, iman vs knowledge, and the virtue of patience
+  - id: surah-fatir
+    title: Surah Fatir
+    surah_number: 35
+    description: Tafsir of Surah Fatir (The Originator), discussing Allah as the Creator, the role of angels, spiritual senses, and the fate of believers and disbelievers.
+    speaker: Sheikh Azhar Nasser
+    playlist_id: PLpkB0iwLgfTacelf4kQD5Z04l8b6-ZnGN
+    playlist_url: https://www.youtube.com/playlist?list=PLpkB0iwLgfTacelf4kQD5Z04l8b6-ZnGN
+    thumbnail_video_id: oQNbkd_JcgY
+    episodes:
+      - video_id: oQNbkd_JcgY
+        title: "[1] Surah Fatir Tafsir"
+        url: https://www.youtube.com/watch?v=oQNbkd_JcgY
+        description: |-
+          Verse 1 of Surah Fatir talk the station of angels, and their duties
+          Lecture slides available at http://www.why-quran.org/blog/surah-fatir-35-tafsir-class-1-the-angels/
+      - video_id: lEhUDYHw1OI
+        title: "[2] The Angels"
+        url: https://www.youtube.com/watch?v=lEhUDYHw1OI
+        description: |-
+          Verses 1 and 2 of Surah Fatir talk about angels and Allah's mercy
+          Lecture notes available at http://www.why-quran.org/blog/surah-fatir-35-tafsir-class-2-the-angels-cont/
+      - video_id: JcxWiBFNmm8
+        title: "[3] Drowning in Dunya"
+        url: https://www.youtube.com/watch?v=JcxWiBFNmm8
+        description: Verses 3-5 of Surah Fatir talks about remembering Allah's mercy and avoiding the traps of this world.
+      - video_id: AL2KYPqnMuA
+        title: "[4] Satan's Despair"
+        url: https://www.youtube.com/watch?v=AL2KYPqnMuA
+        description: Verses 6-7 of Surah Fatir describes why Satan opposes Allah, despite firmly believing in Him.
+      - video_id: EsiYWsTtUhs
+        title: "[5] Telling Right from Wrong"
+        url: https://www.youtube.com/watch?v=EsiYWsTtUhs
+        description: Verses 8-10 of Surah Fatir describes how our default nature gives us a rudimentary ability to distinguish right from wrong. But we need revelation to develop a more advanced views.
+      - video_id: BIiFFH5kZrg
+        title: "[6] The Preserved Tablet"
+        url: https://www.youtube.com/watch?v=BIiFFH5kZrg
+        description: Verses 11-13 of Surah Fatir talks about unseen information that Allah granted to the imams, and the difference in effects when an action is performed by a believer or a rejecter.
+      - video_id: FHJGw50OuAU
+        title: "[7] The Powerless Gods"
+        url: https://www.youtube.com/watch?v=FHJGw50OuAU
+        description: Verses 14-18 of Surah Fatir reminds us of how helpless we are on God for every aspect of our existence.
+      - video_id: YjttDevB0nc
+        title: "[8] The Spiritual Senses"
+        url: https://www.youtube.com/watch?v=YjttDevB0nc
+        description: Verses 19-24 of Surah Fatir describe the effects of being blind to the truth, the darkness you then stumble around in, and the effect it will have on you
+      - video_id: l-o_hGl51sI
+        title: "[9] Belief without Action"
+        url: https://www.youtube.com/watch?v=l-o_hGl51sI
+        description: Verses 25-30 of Surah Fatir describes how true kufr is knowing the truth but not acting on it.
+      - video_id: AN2eZXR-i3I
+        title: "[10] The Quran's Inheritors"
+        url: https://www.youtube.com/watch?v=AN2eZXR-i3I
+        description: Verses 31-35 of Surah Fatir describes the intellectual inheritors of the Quran, and the three types of servants of Allah.
+      - video_id: FopxBU8Rbe0
+        title: "[11] Last Minute Regrets"
+        url: https://www.youtube.com/watch?v=FopxBU8Rbe0
+        description: Verses 36-38 of Surah Fatir describes the feeling of the criminals in the next world.
+      - video_id: 47gNW0fPzs0
+        title: "[12] Faith without Evidence"
+        url: https://www.youtube.com/watch?v=47gNW0fPzs0
+        description: Verses 39-41 of Surah Fatir describes how Islam rebukes the notion of believing in something without having evidence to back it up, how kufr is really self-harm, and the types of of caliphs.
+      - video_id: z_jk_u8jGGE
+        title: "[13] Dangers of Takabbur"
+        url: https://www.youtube.com/watch?v=z_jk_u8jGGE
+        description: Verses 42-45 of Surah Fatir describes how arrogance can make people dislike the truth, which is why takkabur is so dangerous.
+  - id: surah-hujurat
+    title: Surah Hujurat
+    surah_number: 49
+    description: Tafsir of Surah Al-Hujurat (The Chambers), focusing on Islamic ethics, manners, backbiting, privacy, and building a righteous community.
+    speaker: Sheikh Azhar Nasser
+    playlist_id: PLpkB0iwLgfTYG3bqG71WIlCf1jcgWs7Hz
+    playlist_url: https://www.youtube.com/playlist?list=PLpkB0iwLgfTYG3bqG71WIlCf1jcgWs7Hz
+    thumbnail_video_id: ZErhfdOuqxA
+    episodes:
+      - video_id: ZErhfdOuqxA
+        title: "[1a] Intro - The Chapter on Morals"
+        url: https://www.youtube.com/watch?v=ZErhfdOuqxA
+        description: Surah Hujurat is called the Chapter on Morals. Sheikh Azhar  describes the context in which this surah was revealed and provides an overview of it's verses
+      - video_id: QYmD5YX2DAs
+        title: "[1b] Guidance from God vs from Your Own Thoughts"
+        url: https://www.youtube.com/watch?v=QYmD5YX2DAs
+      - video_id: g_TTPPghbec
+        title: "[1c] Sins that Can Nullify Good Deeds"
+        url: https://www.youtube.com/watch?v=g_TTPPghbec
+      - video_id: p2poTYi9OGo
+        title: "[2a] Patience and Dignity"
+        url: https://www.youtube.com/watch?v=p2poTYi9OGo
+      - video_id: eDyQFGVj5jA
+        title: "[2b] Don't Believe Everything You Hear"
+        url: https://www.youtube.com/watch?v=eDyQFGVj5jA
+      - video_id: 01NVfY6C8YQ
+        title: "[3a] Divine Wisdom"
+        url: https://www.youtube.com/watch?v=01NVfY6C8YQ
+      - video_id: q3y3m_tEfkY
+        title: "[3b] Disputes among Muslims"
+        url: https://www.youtube.com/watch?v=q3y3m_tEfkY
+      - video_id: WWo5yi9RUGs
+        title: "[4a] Protection from Insults"
+        url: https://www.youtube.com/watch?v=WWo5yi9RUGs
+      - video_id: dhXSsnb6zaA
+        title: "[4b] Right to Privacy"
+        url: https://www.youtube.com/watch?v=dhXSsnb6zaA
+      - video_id: Ak-n8j7i5QE
+        title: "[5a] Backbiting (Gheebat)"
+        url: https://www.youtube.com/watch?v=Ak-n8j7i5QE
+      - video_id: TBc0wXYyJ5E
+        title: "[5b] How to Treat Non-Muslims"
+        url: https://www.youtube.com/watch?v=TBc0wXYyJ5E
+      - video_id: n9mhcNAhHU4
+        title: "[6] What makes someone a True Believer?"
+        url: https://www.youtube.com/watch?v=n9mhcNAhHU4

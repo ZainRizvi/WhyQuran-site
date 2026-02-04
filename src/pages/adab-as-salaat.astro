@@ -1,0 +1,71 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Adab as-Salaat"
+  description="Download the Adab as-Salaat book - The Disciplines of the Prayer"
+>
+  <div class="page-header">
+    <div class="container">
+      <h1>Adab as-Salaat</h1>
+      <p>The Disciplines of the Prayer</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container book-content">
+      <div class="book-info">
+        <h2>About This Book</h2>
+        <p>
+          <em>Adab as-Salaat</em> (The Disciplines of the Prayer) is a profound work
+          by Imam Khomeini exploring the inner dimensions and spiritual significance
+          of the Islamic prayer (salaat).
+        </p>
+        <p>
+          This translation aims to make these important teachings accessible to
+          English-speaking audiences.
+        </p>
+
+        <a href="/downloads/adab-as-salaat.pdf" class="btn btn-primary download-btn" download>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+            <polyline points="7 10 12 15 17 10" />
+            <line x1="12" y1="15" x2="12" y2="3" />
+          </svg>
+          Download PDF
+        </a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .book-content {
+    max-width: 700px;
+  }
+
+  .book-info h2 {
+    margin-bottom: 1rem;
+  }
+
+  .book-info p {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    margin: 1rem 0;
+  }
+
+  .download-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1.5rem;
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+  }
+
+  .download-btn svg {
+    width: 20px;
+    height: 20px;
+  }
+</style>

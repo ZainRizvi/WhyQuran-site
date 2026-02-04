@@ -1,0 +1,194 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import YouTubeEmbed from '../components/YouTubeEmbed.astro';
+import Navigation from '../components/Navigation.astro';
+
+interface Props {
+  title: string;
+  date: Date;
+  youtubeId?: string;
+  videoDescription?: string;
+  slides?: Array<{ name: string; url: string }>;
+  prevPost?: { slug: string; title: string };
+  nextPost?: { slug: string; title: string };
+}
+
+const { title, date, youtubeId, videoDescription, slides, prevPost, nextPost } = Astro.props;
+
+const formattedDate = date.toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+
+// Description for SEO - use video description if available, otherwise default
+const seoDescription = videoDescription || `${title} - Why Quran`;
+
+// YouTube thumbnail for OG image
+const ogImage = youtubeId
+  ? `https://img.youtube.com/vi/${youtubeId}/maxresdefault.jpg`
+  : undefined;
+---
+
+<BaseLayout title={title} description={seoDescription} ogImage={ogImage}>
+  <article class="post">
+    <header class="post-header">
+      <div class="container">
+        <h1>{title}</h1>
+        <time datetime={date.toISOString()}>{formattedDate}</time>
+      </div>
+    </header>
+
+    <div class="container">
+      {youtubeId && (
+        <YouTubeEmbed videoId={youtubeId} title={title} />
+      )}
+
+      {videoDescription && (
+        <div class="video-description">
+          <p>{videoDescription}</p>
+        </div>
+      )}
+
+      {slides && slides.length > 0 && (
+        <div class="slides-section">
+          <h2>Materials</h2>
+          <div class="slides-list">
+            {slides.map((slide) => (
+              <a href={slide.url} class="slide-download" download>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                  <polyline points="7 10 12 15 17 10" />
+                  <line x1="12" y1="15" x2="12" y2="3" />
+                </svg>
+                {slide.name}
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
+
+      <div class="post-content">
+        <slot />
+      </div>
+
+      <Navigation prevPost={prevPost} nextPost={nextPost} />
+    </div>
+  </article>
+</BaseLayout>
+
+<style>
+  .post-header {
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+    color: white;
+    padding: 3rem 0;
+  }
+
+  .post-header .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+
+  .post-header h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.3;
+    margin: 0 0 1rem;
+  }
+
+  .post-header time {
+    opacity: 0.8;
+  }
+
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+
+  .video-description {
+    margin: 1.5rem 0;
+    padding: 1.25rem;
+    background: var(--color-bg-secondary);
+    border-radius: 8px;
+    border-left: 4px solid var(--color-primary);
+  }
+
+  .video-description p {
+    margin: 0;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: var(--color-text);
+  }
+
+  .slides-section {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: var(--color-bg-secondary);
+    border-radius: 8px;
+  }
+
+  .slides-section h2 {
+    font-size: 1.25rem;
+    margin: 0 0 1rem;
+    color: var(--color-text);
+  }
+
+  .slides-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+
+  .slide-download {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1rem;
+    background: var(--color-primary);
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: background 0.2s;
+  }
+
+  .slide-download:hover {
+    background: var(--color-primary-dark);
+  }
+
+  .slide-download svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .post-content {
+    padding: 2rem 0;
+    font-size: 1.125rem;
+    line-height: 1.8;
+  }
+
+  .post-content :global(p) {
+    margin: 1.5rem 0;
+  }
+
+  .post-content :global(a) {
+    color: var(--color-primary);
+    text-decoration: underline;
+  }
+
+  .post-content :global(a:hover) {
+    color: var(--color-primary-dark);
+  }
+
+  @media (max-width: 768px) {
+    .post-header {
+      padding: 2rem 0;
+    }
+
+    .post-header h1 {
+      font-size: 1.5rem;
+    }
+  }
+</style>

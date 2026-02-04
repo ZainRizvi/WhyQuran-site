@@ -1,0 +1,128 @@
+---
+const navLinks = [
+  { href: '/', label: 'Home' },
+  { href: 'https://www.youtube.com/c/whyquran', label: 'YouTube', external: true },
+  { href: '/blog/', label: 'Blog' },
+];
+
+const currentPath = Astro.url.pathname;
+---
+
+<header class="site-header">
+  <div class="header-container">
+    <a href="/" class="site-title">Why Quran</a>
+    <nav class="main-nav">
+      {navLinks.map((link) => (
+        <a
+          href={link.href}
+          class:list={['nav-link', { active: !link.external && currentPath === link.href }]}
+          {...(link.external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
+        >
+          {link.label}
+        </a>
+      ))}
+    </nav>
+    <button class="mobile-menu-toggle" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+</header>
+
+<style>
+  .site-header {
+    background: var(--color-primary);
+    color: white;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .site-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+  }
+
+  .site-title:hover {
+    color: var(--color-accent);
+  }
+
+  .main-nav {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .nav-link {
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+
+  .nav-link:hover,
+  .nav-link.active {
+    color: var(--color-accent);
+  }
+
+  .mobile-menu-toggle {
+    display: none;
+    flex-direction: column;
+    gap: 4px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+  }
+
+  .mobile-menu-toggle span {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background: white;
+    transition: transform 0.2s;
+  }
+
+  @media (max-width: 768px) {
+    .main-nav {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background: var(--color-primary);
+      flex-direction: column;
+      padding: 1rem 1.5rem;
+      gap: 1rem;
+    }
+
+    .main-nav.open {
+      display: flex;
+    }
+
+    .mobile-menu-toggle {
+      display: flex;
+    }
+  }
+</style>
+
+<script>
+  const toggle = document.querySelector('.mobile-menu-toggle');
+  const nav = document.querySelector('.main-nav');
+
+  toggle?.addEventListener('click', () => {
+    nav?.classList.toggle('open');
+  });
+</script>

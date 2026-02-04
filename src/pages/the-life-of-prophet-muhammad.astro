@@ -1,0 +1,210 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import yaml from 'js-yaml';
+import fs from 'node:fs';
+import path from 'node:path';
+
+// Load series data from YAML
+const dataPath = path.join(process.cwd(), 'src/data/series.yaml');
+const fileContents = fs.readFileSync(dataPath, 'utf8');
+const data = yaml.load(fileContents) as {
+  channel: { name: string; youtube_url: string };
+  series: Array<{
+    id: string;
+    title: string;
+    description: string;
+    speaker?: string;
+    playlist_url: string;
+    thumbnail_video_id: string;
+    episodes: Array<{ video_id: string; title: string; url: string }>;
+  }>;
+};
+
+// Find the Prophet Muhammad series
+const series = data.series.find(s => s.id === 'the-life-of-prophet-muhammad');
+if (!series) {
+  throw new Error('Series not found: the-life-of-prophet-muhammad');
+}
+
+const { episodes, playlist_url, speaker, description } = series;
+
+// Get blog posts to map episode numbers to permalinks
+const allPosts = await getCollection('blog');
+const episodeToPermalink = new Map<number, string>();
+allPosts.forEach(post => {
+  if (post.data.episode) {
+    episodeToPermalink.set(post.data.episode, post.data.permalink);
+  }
+});
+
+// Extract episode number from title like "[1] Title" or "[89] Title"
+function getEpisodeNumber(title: string): number | null {
+  const match = title.match(/^\[(\d+)\]/);
+  return match ? parseInt(match[1], 10) : null;
+}
+---
+
+<BaseLayout
+  title="The Life of Prophet Muhammad"
+  description={description}
+>
+  <div class="page-header">
+    <div class="container">
+      <h1>The Life of Prophet Muhammad</h1>
+      <p>{description}</p>
+      {speaker && <p class="speaker">By {speaker}</p>}
+      {episodes.length > 0 && (
+        <a href={episodeToPermalink.has(1) ? `/blog/${episodeToPermalink.get(1)}/` : episodes[0].url} class="btn btn-accent" style="margin-top: 1rem;">
+          Start from Episode 1
+        </a>
+      )}
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <h2>All Episodes ({episodes.length} total)</h2>
+      <div class="cards-grid">
+        {episodes.map((episode) => {
+          const epNum = getEpisodeNumber(episode.title);
+          const permalink = epNum ? episodeToPermalink.get(epNum) : null;
+          const href = permalink ? `/blog/${permalink}/` : episode.url;
+          const isExternal = !permalink;
+
+          return (
+            <article class="episode-card">
+              <a href={href} target={isExternal ? "_blank" : undefined} rel={isExternal ? "noopener noreferrer" : undefined} class="card-link">
+                <div class="thumbnail">
+                  <img
+                    src={`https://img.youtube.com/vi/${episode.video_id}/mqdefault.jpg`}
+                    alt=""
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <div class="card-content">
+                  <h3 class="card-title">{episode.title}</h3>
+                </div>
+              </a>
+            </article>
+          );
+        })}
+      </div>
+    </div>
+  </section>
+
+  <section class="section resources">
+    <div class="container">
+      <h2>Resources</h2>
+      <ul>
+        <li>
+          <a href={playlist_url} target="_blank" rel="noopener noreferrer">
+            Full YouTube Playlist
+          </a>
+        </li>
+        <li>
+          <a href="https://podcast.lifeofprophetmuhammad.com/" target="_blank" rel="noopener noreferrer">
+            Listen on Podcast
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .speaker {
+    color: var(--color-accent);
+    font-weight: 500;
+    margin-top: 0.5rem;
+  }
+
+  .section h2 {
+    margin-bottom: 1.5rem;
+  }
+
+  .cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .episode-card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  .episode-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  }
+
+  .card-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .thumbnail {
+    position: relative;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    background: #1a1a1a;
+  }
+
+  .thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+  }
+
+  .episode-card:hover .thumbnail img {
+    transform: scale(1.05);
+  }
+
+  .card-content {
+    padding: 1rem 1.25rem;
+  }
+
+  .card-title {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.4;
+    margin: 0;
+    color: var(--color-text);
+  }
+
+  .resources {
+    background: var(--color-bg-secondary);
+  }
+
+  .resources ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .resources li {
+    margin: 0.75rem 0;
+  }
+
+  .resources a {
+    color: var(--color-primary);
+    text-decoration: underline;
+    font-size: 1.125rem;
+  }
+
+  .resources a:hover {
+    color: var(--color-primary-dark);
+  }
+
+  @media (max-width: 768px) {
+    .cards-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

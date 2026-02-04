@@ -1,0 +1,36 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PostCard from '../../components/PostCard.astro';
+import { getCollection } from 'astro:content';
+
+// Get all posts sorted by date (newest first)
+const allPosts = await getCollection('blog');
+const posts = allPosts.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+---
+
+<BaseLayout
+  title="Blog"
+  description="Browse all posts from Why-Quran.org"
+>
+  <div class="page-header">
+    <div class="container">
+      <h1>Blog</h1>
+      <p>{posts.length} posts</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <div class="cards-grid">
+        {posts.map((post) => (
+          <PostCard
+            title={post.data.title}
+            slug={post.data.permalink}
+            date={post.data.date}
+            youtubeId={post.data.youtubeId}
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>

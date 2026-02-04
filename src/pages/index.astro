@@ -1,0 +1,323 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import yaml from 'js-yaml';
+import fs from 'node:fs';
+import path from 'node:path';
+
+// Load series data from YAML
+const dataPath = path.join(process.cwd(), 'src/data/series.yaml');
+const fileContents = fs.readFileSync(dataPath, 'utf8');
+const data = yaml.load(fileContents) as {
+  channel: { name: string; youtube_url: string };
+  series: Array<{
+    id: string;
+    title: string;
+    surah_number?: number;
+    description: string;
+    speaker?: string;
+    playlist_url: string;
+    thumbnail_video_id: string;
+    has_dedicated_page?: boolean;
+    episodes: Array<{ video_id: string; title: string; url: string }>;
+  }>;
+};
+
+const { series } = data;
+---
+
+<BaseLayout title="Why Quran - Quran Tafsirs from the Ahlul Bayt">
+  <section class="hero">
+    <div class="container">
+      <h1>Quran Tafsirs Based on the Teachings of the Ahlul Bayt</h1>
+      <blockquote class="hadith">
+        <p>
+          "I am leaving among you two weighty things: the Book of Allah and my progeny,
+          the Ahlul Bayt. If you hold fast to them, you will never go astray."
+        </p>
+        <cite>— Prophet Muhammad (peace be upon him and his family)</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <section class="section series-list">
+    <div class="container">
+      <h2>Video Series</h2>
+      <p class="section-intro">
+        Explore our collection of Quran tafsir and Islamic history series, featuring scholarly teachings from the perspective of the Ahlul Bayt.
+      </p>
+      <div class="series-grid">
+        {series.map((s) => (
+          <article class="series-card">
+            <a
+              href={s.has_dedicated_page ? `/${s.id}/` : s.playlist_url}
+              class="card-link"
+              target={s.has_dedicated_page ? undefined : "_blank"}
+              rel={s.has_dedicated_page ? undefined : "noopener noreferrer"}
+            >
+              <div class="series-thumbnail">
+                <img
+                  src={`https://img.youtube.com/vi/${s.thumbnail_video_id}/mqdefault.jpg`}
+                  alt={s.title}
+                  loading="lazy"
+                />
+                <div class="play-overlay">
+                  <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
+                </div>
+                {s.surah_number && <span class="surah-badge">Surah #{s.surah_number}</span>}
+              </div>
+              <div class="series-content">
+                <h3>{s.title}</h3>
+                {s.speaker && <p class="series-speaker">{s.speaker}</p>}
+                <p class="series-meta">{s.episodes.length} episodes</p>
+                <p class="series-description">{s.description}</p>
+              </div>
+            </a>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section connect">
+    <div class="container">
+      <h2>Stay Connected</h2>
+      <div class="connect-links">
+        <a href="https://www.youtube.com/@WhyQuran" target="_blank" rel="noopener noreferrer" class="connect-link">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+          YouTube
+        </a>
+        <a href="https://t.me/whyquran" target="_blank" rel="noopener noreferrer" class="connect-link">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+          Telegram
+        </a>
+        <a href="https://twitter.com/whyquran" target="_blank" rel="noopener noreferrer" class="connect-link">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          Twitter
+        </a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .hero {
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+    color: white;
+    padding: 5rem 0;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 2rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hadith {
+    max-width: 700px;
+    margin: 0 auto;
+    font-style: italic;
+    border-left: 4px solid var(--color-accent);
+    padding-left: 1.5rem;
+    text-align: left;
+  }
+
+  .hadith p {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    margin: 0 0 0.75rem;
+  }
+
+  .hadith cite {
+    font-size: 1rem;
+    opacity: 0.9;
+  }
+
+  .section h2 {
+    margin-bottom: 1rem;
+  }
+
+  .section-intro {
+    color: var(--color-text-light);
+    font-size: 1.125rem;
+    max-width: 700px;
+    margin-bottom: 2rem;
+  }
+
+  .series-list {
+    background: var(--color-bg-secondary);
+  }
+
+  .series-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 2rem;
+  }
+
+  .series-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  .series-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);
+  }
+
+  .card-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .series-thumbnail {
+    position: relative;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    background: #1a1a1a;
+  }
+
+  .series-thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s;
+  }
+
+  .series-card:hover .series-thumbnail img {
+    transform: scale(1.08);
+  }
+
+  .play-overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+
+  .series-card:hover .play-overlay {
+    opacity: 1;
+  }
+
+  .play-overlay svg {
+    width: 64px;
+    height: 64px;
+    color: white;
+    filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.3));
+  }
+
+  .surah-badge {
+    position: absolute;
+    top: 0.75rem;
+    left: 0.75rem;
+    background: var(--color-primary);
+    color: white;
+    padding: 0.35rem 0.75rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+
+  .series-content {
+    padding: 1.25rem 1.5rem 1.5rem;
+  }
+
+  .series-card h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1.25rem;
+    color: var(--color-text);
+    transition: color 0.2s;
+  }
+
+  .series-card:hover h3 {
+    color: var(--color-primary);
+  }
+
+  .series-speaker {
+    color: var(--color-primary);
+    font-weight: 500;
+    margin: 0 0 0.25rem;
+    font-size: 0.9rem;
+  }
+
+  .series-meta {
+    color: var(--color-text-light);
+    font-size: 0.85rem;
+    margin: 0 0 0.75rem;
+  }
+
+  .series-description {
+    color: var(--color-text-light);
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  .connect {
+    background: white;
+    text-align: center;
+  }
+
+  .connect-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+  }
+
+  .connect-link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    background: var(--color-bg-secondary);
+    color: var(--color-text);
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: background 0.2s, color 0.2s;
+  }
+
+  .connect-link:hover {
+    background: var(--color-primary);
+    color: white;
+  }
+
+  .connect-link svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  @media (max-width: 768px) {
+    .hero {
+      padding: 3rem 0;
+    }
+
+    .hero h1 {
+      font-size: 1.75rem;
+    }
+
+    .hadith p {
+      font-size: 1rem;
+    }
+
+    .series-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
