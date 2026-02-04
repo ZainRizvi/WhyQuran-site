@@ -8,12 +8,13 @@ interface Props {
   date: Date;
   youtubeId?: string;
   videoDescription?: string;
+  podcastUrl?: string;
   slides?: Array<{ name: string; url: string }>;
   prevPost?: { slug: string; title: string };
   nextPost?: { slug: string; title: string };
 }
 
-const { title, date, youtubeId, videoDescription, slides, prevPost, nextPost } = Astro.props;
+const { title, date, youtubeId, videoDescription, podcastUrl, slides, prevPost, nextPost } = Astro.props;
 
 const formattedDate = date.toLocaleDateString('en-US', {
   year: 'numeric',
@@ -42,6 +43,17 @@ const ogImage = youtubeId
     <div class="container">
       {youtubeId && (
         <YouTubeEmbed videoId={youtubeId} title={title} />
+      )}
+
+      {podcastUrl && (
+        <div class="podcast-link">
+          <a href={podcastUrl} target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/>
+            </svg>
+            Listen on Podcast
+          </a>
+        </div>
       )}
 
       {videoDescription && (
@@ -105,6 +117,27 @@ const ogImage = youtubeId
     max-width: 900px;
     margin: 0 auto;
     padding: 0 1.5rem;
+  }
+
+  .podcast-link {
+    margin: 1.5rem 0 1rem;
+  }
+
+  .podcast-link a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.25rem;
+    background: var(--color-accent);
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: background 0.2s;
+  }
+
+  .podcast-link a:hover {
+    background: var(--color-accent-dark, #b8860b);
   }
 
   .video-description {

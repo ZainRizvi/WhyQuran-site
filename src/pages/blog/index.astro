@@ -1,16 +1,67 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PostCard from '../../components/PostCard.astro';
-import { getCollection } from 'astro:content';
+import yaml from 'js-yaml';
+import fs from 'node:fs';
+import path from 'node:path';
 
-// Get all posts sorted by date (newest first)
-const allPosts = await getCollection('blog');
-const posts = allPosts.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
+// Helper to generate slug from title like "[58] Khandaq: Digging the Trench - Pt 2"
+function generateSlug(title: string): string {
+  return title
+    .replace(/^\[(\d+)\]\s*/, '$1-')  // [58] -> 58-
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')      // Replace non-alphanumeric with dashes
+    .replace(/-+/g, '-')              // Collapse multiple dashes
+    .replace(/^-|-$/g, '');           // Trim leading/trailing dashes
+}
+
+// Load series data from YAML
+const dataPath = path.join(process.cwd(), 'src/data/series.yaml');
+const fileContents = fs.readFileSync(dataPath, 'utf8');
+const seriesData = yaml.load(fileContents) as {
+  series: Array<{
+    id: string;
+    episodes: Array<{
+      video_id: string;
+      title: string;
+      published_date?: string;
+    }>;
+  }>;
+};
+
+// Get Prophet Muhammad series episodes
+const prophetSeries = seriesData.series.find(s => s.id === 'the-life-of-prophet-muhammad');
+
+interface PostData {
+  title: string;
+  slug: string;
+  date: Date;
+  youtubeId: string;
+}
+
+const posts: PostData[] = [];
+
+if (prophetSeries) {
+  prophetSeries.episodes.forEach((ep) => {
+    const match = ep.title.match(/^\[(\d+)\]/);
+    if (match) {
+      posts.push({
+        title: ep.title,
+        slug: generateSlug(ep.title),
+        date: ep.published_date ? new Date(ep.published_date) : new Date('2020-01-01'),
+        youtubeId: ep.video_id,
+      });
+    }
+  });
+}
+
+// Sort by date (newest first)
+posts.sort((a, b) => b.date.getTime() - a.date.getTime());
 ---
 
 <BaseLayout
   title="Blog"
-  description="Browse all posts from Why-Quran.org"
+  description="Browse all posts from Why Quran"
 >
   <div class="page-header">
     <div class="container">
@@ -24,10 +75,10 @@ const posts = allPosts.sort((a, b) => b.data.date.getTime() - a.data.date.getTim
       <div class="cards-grid">
         {posts.map((post) => (
           <PostCard
-            title={post.data.title}
-            slug={post.data.permalink}
-            date={post.data.date}
-            youtubeId={post.data.youtubeId}
+            title={post.title}
+            slug={post.slug}
+            date={post.date}
+            youtubeId={post.youtubeId}
           />
         ))}
       </div>
