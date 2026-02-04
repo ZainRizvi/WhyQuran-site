@@ -16,6 +16,7 @@ const data = yaml.load(fileContents) as {
     description: string;
     speaker?: string;
     playlist_url: string;
+    podcast_url?: string;
     thumbnail_video_id: string;
     episodes: Array<{ video_id: string; title: string; url: string }>;
   }>;
@@ -27,7 +28,7 @@ if (!series) {
   throw new Error('Series not found: the-life-of-prophet-muhammad');
 }
 
-const { episodes, playlist_url, speaker, description } = series;
+const { episodes, playlist_url, podcast_url, speaker, description } = series;
 
 // Get blog posts to map episode numbers to permalinks
 const allPosts = await getCollection('blog');
@@ -103,11 +104,13 @@ function getEpisodeNumber(title: string): number | null {
             Full YouTube Playlist
           </a>
         </li>
-        <li>
-          <a href="https://podcast.lifeofprophetmuhammad.com/" target="_blank" rel="noopener noreferrer">
-            Listen on Podcast
-          </a>
-        </li>
+        {podcast_url && (
+          <li>
+            <a href={podcast_url} target="_blank" rel="noopener noreferrer">
+              Listen on Podcast
+            </a>
+          </li>
+        )}
       </ul>
     </div>
   </section>
