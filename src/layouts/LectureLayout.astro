@@ -31,6 +31,27 @@ const ogImage = youtubeId
   : undefined;
 
 const hasResources = podcastUrl || (slides && slides.length > 0);
+
+// Format description: convert bullet points and preserve line breaks
+function formatDescription(text: string): string {
+  return text
+    .split('\n')
+    .map(line => {
+      const trimmed = line.trim();
+      if (trimmed.startsWith('- ')) {
+        // Convert bullet points to list items
+        return `<li>${trimmed.slice(2)}</li>`;
+      } else if (trimmed) {
+        return `<p>${trimmed}</p>`;
+      }
+      return '';
+    })
+    .join('')
+    // Wrap consecutive <li> elements in <ul>
+    .replace(/(<li>.*?<\/li>)+/g, '<ul>$&</ul>');
+}
+
+const formattedDescription = videoDescription ? formatDescription(videoDescription) : '';
 ---
 
 <BaseLayout title={title} description={seoDescription} ogImage={ogImage}>
@@ -98,9 +119,7 @@ const hasResources = podcastUrl || (slides && slides.length > 0);
               </svg>
               <h2>About This Lecture</h2>
             </div>
-            <div class="description-content">
-              <p>{videoDescription}</p>
-            </div>
+            <div class="description-content" set:html={formattedDescription} />
             <div class="description-decoration"></div>
           </aside>
         )}
@@ -363,10 +382,48 @@ const hasResources = podcastUrl || (slides && slides.length > 0);
   }
 
   .description-content p {
-    margin: 0;
+    margin: 0 0 1rem;
     font-size: 1rem;
     line-height: 1.75;
     color: var(--color-text);
+  }
+
+  .description-content p:last-child {
+    margin-bottom: 0;
+  }
+
+  .description-content ul {
+    margin: 0.75rem 0;
+    padding-left: 0;
+    list-style: none;
+  }
+
+  .description-content ul:last-child {
+    margin-bottom: 0;
+  }
+
+  .description-content li {
+    position: relative;
+    padding-left: 1.25rem;
+    margin-bottom: 0.625rem;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--color-text);
+  }
+
+  .description-content li:last-child {
+    margin-bottom: 0;
+  }
+
+  .description-content li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.55em;
+    width: 6px;
+    height: 6px;
+    background: var(--color-accent);
+    border-radius: 50%;
   }
 
   .description-decoration {
