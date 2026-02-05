@@ -60,28 +60,164 @@ posts.sort((a, b) => b.date.getTime() - a.date.getTime());
 ---
 
 <BaseLayout
-  title="Blog"
-  description="Browse all posts from Why Quran"
+  title="Blog - All Episodes"
+  description="Browse all lecture episodes from Why Quran"
 >
-  <div class="page-header">
-    <div class="container">
-      <h1>Blog</h1>
-      <p>{posts.length} posts</p>
+  <!-- Hero Section -->
+  <section class="blog-hero">
+    <div class="hero-bg">
+      <div class="hero-gradient"></div>
     </div>
-  </div>
+    <div class="hero-content">
+      <h1>All Episodes</h1>
+      <p>Browse the complete collection of {posts.length} lectures from the Seerah series</p>
+    </div>
+  </section>
 
-  <section class="section">
+  <!-- Posts Grid -->
+  <section class="section posts-section">
     <div class="container">
-      <div class="cards-grid">
-        {posts.map((post) => (
-          <PostCard
-            title={post.title}
-            slug={post.slug}
-            date={post.date}
-            youtubeId={post.youtubeId}
-          />
+      <div class="posts-header">
+        <div class="posts-meta">
+          <span class="posts-count">{posts.length} episodes</span>
+          <span class="posts-sort">Sorted by newest first</span>
+        </div>
+      </div>
+
+      <div class="posts-grid">
+        {posts.map((post, index) => (
+          <div class="post-item" style={`--delay: ${Math.min(index * 0.03, 0.5)}s`}>
+            <PostCard
+              title={post.title}
+              slug={post.slug}
+              date={post.date}
+              youtubeId={post.youtubeId}
+            />
+          </div>
         ))}
       </div>
     </div>
   </section>
 </BaseLayout>
+
+<style>
+  /* Hero */
+  .blog-hero {
+    position: relative;
+    padding: var(--space-12) var(--space-6);
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .hero-bg {
+    position: absolute;
+    inset: 0;
+    background: var(--color-primary);
+  }
+
+  .hero-gradient {
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse at 30% 0%, rgba(201, 124, 58, 0.15) 0%, transparent 50%),
+      radial-gradient(ellipse at 70% 100%, rgba(201, 124, 58, 0.1) 0%, transparent 50%);
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 1;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .blog-hero h1 {
+    font-size: var(--text-4xl);
+    font-weight: 500;
+    color: white;
+    margin-bottom: var(--space-3);
+  }
+
+  .blog-hero p {
+    font-size: var(--text-lg);
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0;
+  }
+
+  /* Posts Section */
+  .posts-section {
+    background: var(--color-bg);
+  }
+
+  .posts-header {
+    margin-bottom: var(--space-8);
+    padding-bottom: var(--space-4);
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .posts-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .posts-count {
+    font-size: var(--text-sm);
+    font-weight: 600;
+    color: var(--color-text);
+  }
+
+  .posts-sort {
+    font-size: var(--text-sm);
+    color: var(--color-text-muted);
+  }
+
+  .posts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: var(--space-5);
+  }
+
+  .post-item {
+    animation: fadeIn 0.4s ease-out both;
+    animation-delay: var(--delay);
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(12px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .blog-hero {
+      padding: var(--space-10) var(--space-4);
+    }
+
+    .blog-hero h1 {
+      font-size: var(--text-3xl);
+    }
+
+    .posts-meta {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: var(--space-2);
+    }
+
+    .posts-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  /* Reduced motion */
+  @media (prefers-reduced-motion: reduce) {
+    .post-item {
+      animation: none;
+    }
+  }
+</style>

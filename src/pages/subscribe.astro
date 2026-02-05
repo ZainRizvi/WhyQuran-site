@@ -1,77 +1,333 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+
+const platforms = [
+  {
+    name: 'YouTube',
+    description: 'Watch new lectures as they are released',
+    href: 'https://www.youtube.com/c/whyquran?sub_confirmation=1',
+    icon: 'M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z',
+    color: '#ff0000',
+    primary: true
+  },
+  {
+    name: 'Telegram',
+    description: 'Join our community channel for updates',
+    href: 'https://t.me/whyquran',
+    icon: 'M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z',
+    color: '#0088cc',
+    primary: false
+  },
+  {
+    name: 'Twitter',
+    description: 'Follow for announcements and clips',
+    href: 'https://twitter.com/whyquran',
+    icon: 'M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z',
+    color: '#000000',
+    primary: false
+  },
+  {
+    name: 'Podcast',
+    description: 'Listen on your favorite podcast app',
+    href: 'https://podcast.lifeofprophetmuhammad.com/',
+    iconSvg: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/>
+      <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+      <line x1="12" y1="19" x2="12" y2="23"/>
+      <line x1="8" y1="23" x2="16" y2="23"/>
+    </svg>`,
+    color: 'var(--color-accent)',
+    primary: false
+  }
+];
 ---
 
 <BaseLayout
   title="Subscribe"
-  description="Subscribe to Why-Quran.org for updates on new lectures"
+  description="Subscribe to Why Quran for updates on new lectures"
 >
-  <div class="page-header">
-    <div class="container">
-      <h1>Subscribe</h1>
-      <p>Stay updated with new lectures and content</p>
+  <!-- Hero Section -->
+  <section class="subscribe-hero">
+    <div class="hero-bg">
+      <div class="hero-gradient"></div>
     </div>
-  </div>
-
-  <section class="section">
-    <div class="container subscribe-content">
-      <p>
-        The best way to stay updated with new lectures is to subscribe to our
-        YouTube channel:
-      </p>
-
-      <a
-        href="https://www.youtube.com/c/whyquran?sub_confirmation=1"
-        class="btn btn-primary youtube-btn"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <svg viewBox="0 0 24 24" fill="currentColor">
-          <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+    <div class="hero-content">
+      <div class="hero-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/>
+          <path d="M13.73 21a2 2 0 0 1-3.46 0"/>
         </svg>
-        Subscribe on YouTube
-      </a>
+      </div>
+      <h1>Stay Connected</h1>
+      <p>Get notified when new lectures are published and never miss an episode</p>
+    </div>
+  </section>
 
-      <p>
-        You can also follow <a href="https://tasneeminstitute.org/" target="_blank" rel="noopener noreferrer">Tasneem Institute</a>
-        for updates on upcoming courses and events.
-      </p>
+  <!-- Platforms Section -->
+  <section class="section platforms-section">
+    <div class="container-narrow">
+      <div class="platforms-grid">
+        {platforms.map((platform) => (
+          <a
+            href={platform.href}
+            target="_blank"
+            rel="noopener noreferrer"
+            class:list={['platform-card', { primary: platform.primary }]}
+            style={`--platform-color: ${platform.color}`}
+          >
+            <div class="platform-icon">
+              {platform.icon ? (
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d={platform.icon}/>
+                </svg>
+              ) : (
+                <Fragment set:html={platform.iconSvg} />
+              )}
+            </div>
+            <div class="platform-content">
+              <h3>{platform.name}</h3>
+              <p>{platform.description}</p>
+            </div>
+            <div class="platform-arrow">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </div>
+          </a>
+        ))}
+      </div>
+
+      <div class="subscribe-note">
+        <p>
+          Subscribing to our YouTube channel is the best way to stay updated.
+          Turn on notifications to get alerts for new lectures.
+        </p>
+      </div>
     </div>
   </section>
 </BaseLayout>
 
 <style>
-  .subscribe-content {
-    max-width: 600px;
+  /* Hero */
+  .subscribe-hero {
+    position: relative;
+    padding: var(--space-16) var(--space-6);
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .hero-bg {
+    position: absolute;
+    inset: 0;
+    background: var(--color-primary);
+  }
+
+  .hero-gradient {
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse at 50% 0%, rgba(201, 124, 58, 0.2) 0%, transparent 50%),
+      radial-gradient(ellipse at 50% 100%, rgba(201, 124, 58, 0.1) 0%, transparent 50%);
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 1;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .hero-icon {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto var(--space-6);
+    background: rgba(201, 124, 58, 0.2);
+    border-radius: 50%;
+    color: var(--color-accent);
+  }
+
+  .hero-icon svg {
+    width: 32px;
+    height: 32px;
+  }
+
+  .subscribe-hero h1 {
+    font-size: var(--text-4xl);
+    font-weight: 500;
+    color: white;
+    margin-bottom: var(--space-4);
+  }
+
+  .subscribe-hero p {
+    font-size: var(--text-lg);
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  /* Platforms Section */
+  .platforms-section {
+    background: var(--color-bg);
+  }
+
+  .platforms-grid {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+  }
+
+  .platform-card {
+    display: flex;
+    align-items: center;
+    gap: var(--space-5);
+    padding: var(--space-5) var(--space-6);
+    background: var(--color-bg-card);
+    border-radius: var(--radius-xl);
+    text-decoration: none;
+    color: inherit;
+    box-shadow: var(--shadow-sm);
+    transition: all var(--transition-base);
+    border: 2px solid transparent;
+  }
+
+  .platform-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+    border-color: var(--platform-color);
+  }
+
+  .platform-card.primary {
+    background: var(--color-primary);
+    color: white;
+  }
+
+  .platform-card.primary:hover {
+    background: var(--color-primary-light);
+  }
+
+  .platform-icon {
+    width: 52px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--radius-lg);
+    background: var(--color-bg-alt);
+    color: var(--platform-color);
+    flex-shrink: 0;
+    transition: transform var(--transition-fast);
+  }
+
+  .platform-card.primary .platform-icon {
+    background: rgba(255, 255, 255, 0.15);
+    color: white;
+  }
+
+  .platform-card:hover .platform-icon {
+    transform: scale(1.05);
+  }
+
+  .platform-icon svg {
+    width: 26px;
+    height: 26px;
+  }
+
+  .platform-content {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .platform-content h3 {
+    font-family: var(--font-body);
+    font-size: var(--text-lg);
+    font-weight: 600;
+    margin: 0 0 var(--space-1);
+  }
+
+  .platform-card.primary .platform-content h3 {
+    color: white;
+  }
+
+  .platform-content p {
+    font-size: var(--text-sm);
+    color: var(--color-text-muted);
+    margin: 0;
+  }
+
+  .platform-card.primary .platform-content p {
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .platform-arrow {
+    width: 24px;
+    height: 24px;
+    color: var(--color-text-muted);
+    flex-shrink: 0;
+    opacity: 0;
+    transform: translateX(-8px);
+    transition: all var(--transition-fast);
+  }
+
+  .platform-card:hover .platform-arrow {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  .platform-card.primary .platform-arrow {
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .platform-arrow svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Note */
+  .subscribe-note {
+    margin-top: var(--space-10);
+    padding: var(--space-6);
+    background: var(--color-bg-alt);
+    border-radius: var(--radius-lg);
     text-align: center;
   }
 
-  .subscribe-content p {
-    font-size: 1.125rem;
-    line-height: 1.8;
-    margin: 1.5rem 0;
+  .subscribe-note p {
+    font-size: var(--text-sm);
+    color: var(--color-text-muted);
+    line-height: 1.7;
+    margin: 0;
   }
 
-  .youtube-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    background: #ff0000;
-    margin: 1rem 0;
-    font-size: 1.125rem;
-    padding: 1rem 2rem;
-  }
+  /* Responsive */
+  @media (max-width: 768px) {
+    .subscribe-hero {
+      padding: var(--space-12) var(--space-4);
+    }
 
-  .youtube-btn:hover {
-    background: #cc0000;
-  }
+    .subscribe-hero h1 {
+      font-size: var(--text-3xl);
+    }
 
-  .youtube-btn svg {
-    width: 24px;
-    height: 24px;
-  }
+    .platform-card {
+      padding: var(--space-4);
+      gap: var(--space-4);
+    }
 
-  .subscribe-content a {
-    color: var(--color-primary);
+    .platform-icon {
+      width: 44px;
+      height: 44px;
+    }
+
+    .platform-icon svg {
+      width: 22px;
+      height: 22px;
+    }
+
+    .platform-arrow {
+      display: none;
+    }
   }
 </style>
